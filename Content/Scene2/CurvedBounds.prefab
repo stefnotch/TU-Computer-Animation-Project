@@ -1,0 +1,298 @@
+{
+	"ID": "96918ac54892a2a8d4e6b1906e2285b8",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6512,
+	"Data": [
+	{
+		"ID": "5106bd1d47c6674c2e6874bd140fef42",
+		"TypeName": "FlaxEngine.EmptyActor",
+		"Name": "Bounds"
+	},
+	{
+		"ID": "3216dc714b5ebcdb560a45b95bf3d438",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "5106bd1d47c6674c2e6874bd140fef42",
+		"Name": "Cube",
+		"Transform": {
+			"Translation": {
+				"X": -275.0,
+				"Y": 59.64241027832031,
+				"Z": 0.0
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 7.599999904632568,
+				"Z": 1.0
+			}
+		},
+		"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "6cb91af64970ff3a1d2e389d4dbb8897",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "d2776ba34082276983ec38800356247c",
+		"TypeName": "FlaxEngine.BoxCollider",
+		"ParentID": "3216dc714b5ebcdb560a45b95bf3d438",
+		"Name": "BoxCollider",
+		"Center": {
+			"X": 0.0,
+			"Y": -0.000001955915422513499,
+			"Z": 0.0
+		}
+	},
+	{
+		"ID": "580ee0a34dfc8dab3829b0ac9f10e5b9",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "5106bd1d47c6674c2e6874bd140fef42",
+		"Name": "Cube 2",
+		"Transform": {
+			"Translation": {
+				"X": -265.3548889160156,
+				"Y": -438.3139953613281,
+				"Z": 0.0
+			},
+			"Orientation": {
+				"X": 0.0,
+				"Y": 0.0,
+				"Z": 0.09153991937637329,
+				"W": 0.9958013892173767
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 1.0,
+				"Z": 1.0
+			}
+		},
+		"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "6cb91af64970ff3a1d2e389d4dbb8897",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "141e42304d5d71e84c79d2a3e99f0c55",
+		"TypeName": "FlaxEngine.BoxCollider",
+		"ParentID": "580ee0a34dfc8dab3829b0ac9f10e5b9",
+		"Name": "BoxCollider"
+	},
+	{
+		"ID": "fcce73a446eaf24f822ee2b0d56496c2",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "5106bd1d47c6674c2e6874bd140fef42",
+		"Name": "Cube 3",
+		"Transform": {
+			"Translation": {
+				"X": -240.71578979492188,
+				"Y": -510.0127868652344,
+				"Z": 0.0
+			},
+			"Orientation": {
+				"X": 0.0,
+				"Y": 0.0,
+				"Z": 0.30347010493278506,
+				"W": 0.95284104347229
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 1.0,
+				"Z": 1.0
+			}
+		},
+		"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "6cb91af64970ff3a1d2e389d4dbb8897",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "93b7d9414e74e1d2157dd989b500ce68",
+		"TypeName": "FlaxEngine.BoxCollider",
+		"ParentID": "fcce73a446eaf24f822ee2b0d56496c2",
+		"Name": "BoxCollider"
+	},
+	{
+		"ID": "6156fcf44f18bc0fd45f93a73308c7f6",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "5106bd1d47c6674c2e6874bd140fef42",
+		"Name": "Cube 5",
+		"Transform": {
+			"Translation": {
+				"X": -178.4007568359375,
+				"Y": -567.87353515625,
+				"Z": 0.0
+			},
+			"Orientation": {
+				"X": 0.0,
+				"Y": 0.0,
+				"Z": 0.49398356676101687,
+				"W": 0.8694713711738586
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 1.0,
+				"Z": 1.0
+			}
+		},
+		"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "6cb91af64970ff3a1d2e389d4dbb8897",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "8610d8f14bb35953b69122961335e686",
+		"TypeName": "FlaxEngine.BoxCollider",
+		"ParentID": "6156fcf44f18bc0fd45f93a73308c7f6",
+		"Name": "BoxCollider"
+	},
+	{
+		"ID": "8dfa766b4d24db5c5beec7a5b34cc39e",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "5106bd1d47c6674c2e6874bd140fef42",
+		"Name": "Cube 6",
+		"Transform": {
+			"Translation": {
+				"X": -104.02178192138672,
+				"Y": -600.536376953125,
+				"Z": 0.0
+			},
+			"Orientation": {
+				"X": 0.0,
+				"Y": 0.0,
+				"Z": 0.6183682680130005,
+				"W": 0.7858884930610657
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 1.0,
+				"Z": 1.0
+			}
+		},
+		"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "6cb91af64970ff3a1d2e389d4dbb8897",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "02087d1148bad8f5b9a103b35ff1f4ef",
+		"TypeName": "FlaxEngine.BoxCollider",
+		"ParentID": "8dfa766b4d24db5c5beec7a5b34cc39e",
+		"Name": "BoxCollider"
+	},
+	{
+		"ID": "a0bbc104475156a6536175b0151ed03e",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "5106bd1d47c6674c2e6874bd140fef42",
+		"Name": "Cube 7",
+		"Transform": {
+			"Translation": {
+				"X": -28.246437072753908,
+				"Y": -611.5009765625,
+				"Z": 0.0
+			},
+			"Orientation": {
+				"X": 0.0,
+				"Y": 0.0,
+				"Z": 0.6815170645713806,
+				"W": 0.7318022847175598
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 1.0,
+				"Z": 1.0
+			}
+		},
+		"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "6cb91af64970ff3a1d2e389d4dbb8897",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "f884aa9044402943565e769bf283e4b6",
+		"TypeName": "FlaxEngine.BoxCollider",
+		"ParentID": "a0bbc104475156a6536175b0151ed03e",
+		"Name": "BoxCollider"
+	},
+	{
+		"ID": "76fbef9b4710200edf9c6cbc3fc41a45",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "5106bd1d47c6674c2e6874bd140fef42",
+		"Name": "Cube 4",
+		"Transform": {
+			"Translation": {
+				"X": -273.7818298339844,
+				"Y": -364.4801330566406,
+				"Z": 0.0
+			},
+			"Orientation": {
+				"X": 0.0,
+				"Y": 0.0,
+				"Z": 0.02500113658607006,
+				"W": 0.9996874928474426
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 1.0,
+				"Z": 1.0
+			}
+		},
+		"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "6cb91af64970ff3a1d2e389d4dbb8897",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "177c16974390ad3e46b06b81ac8d43bc",
+		"TypeName": "FlaxEngine.BoxCollider",
+		"ParentID": "76fbef9b4710200edf9c6cbc3fc41a45",
+		"Name": "BoxCollider"
+	}
+]
+}
