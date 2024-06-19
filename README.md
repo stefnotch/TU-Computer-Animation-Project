@@ -1,5 +1,9 @@
 # Tetris in H~~eaven~~ell
 
+vvvv
+[Video download link here](https://github.com/stefnotch/TU-Computer-Animation-Project/releases/download/v1.0.0/video.mp4)
+^^^^
+
 What did I do? I made a short video of a Tetris game in hell. The obvious twist is that the Tetris games are impossible, and even if you do solve them, you just land in hell again. It's a looping video.
 
 No audio though, because ...
