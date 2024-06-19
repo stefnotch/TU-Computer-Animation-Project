@@ -1,0 +1,24 @@
+{
+	"ID": "83b78efb4a1fe428eb56b1b613493f35",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6512,
+	"Data": [
+	{
+		"ID": "50ea07c74d2df6592ffc639de77a21ef",
+		"TypeName": "FlaxEngine.StaticModel",
+		"Name": "tetris-cube 0",
+		"StaticFlags": 0,
+		"Model": "a7a6e2f4417afba31d9716972e6429b2",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "2064b05040ba6bb9805c58946c3dd8f1",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	}
+]
+}

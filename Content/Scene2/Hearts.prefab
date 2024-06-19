@@ -1,0 +1,396 @@
+{
+	"ID": "6c87710d428c225ae397e09cefee3515",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6512,
+	"Data": [
+	{
+		"ID": "9e2c24e34620b0c485ceaaa5265c078a",
+		"TypeName": "FlaxEngine.UICanvas",
+		"ParentID": "00000000000000000000000000000000",
+		"Name": "UICanvas",
+		"V": {}
+	},
+	{
+		"ID": "c6080d924771a07c6e24e3984c346743",
+		"TypeName": "FlaxEngine.UIControl",
+		"ParentID": "9e2c24e34620b0c485ceaaa5265c078a",
+		"Name": "Canvas Scalar",
+		"Control": "FlaxEngine.GUI.CanvasScaler",
+		"Data": {
+			"ResolutionCurve": {
+				"Keyframes": [
+					{
+						"Time": 480.0,
+						"Value": 0.444
+					},
+					{
+						"Time": 720.0,
+						"Value": 0.666
+					},
+					{
+						"Time": 1080.0,
+						"Value": 1.0
+					},
+					{
+						"Time": 8640.0,
+						"Value": 8.0
+					}
+				]
+			},
+			"DpiCurve": {
+				"Keyframes": [
+					{
+						"Time": 1.0,
+						"Value": 1.0
+					},
+					{
+						"Time": 96.0,
+						"Value": 1.0
+					},
+					{
+						"Time": 200.0,
+						"Value": 2.0
+					},
+					{
+						"Time": 400.0,
+						"Value": 4.0
+					}
+				]
+			},
+			"Scaling": 2,
+			"ScaleFactor": 1.0,
+			"PhysicalUnit": 3,
+			"PhysicalUnitSize": 1.0,
+			"ResolutionMode": 0,
+			"ResolutionMin": {
+				"X": 1920.0,
+				"Y": 1080.0
+			},
+			"ResolutionMax": {
+				"X": 7680.0,
+				"Y": 4320.0
+			},
+			"ClipChildren": true,
+			"CullChildren": true,
+			"AnchorMin": {
+				"X": 0.0,
+				"Y": 0.0
+			},
+			"AnchorMax": {
+				"X": 1.0,
+				"Y": 1.0
+			},
+			"Offsets": {
+				"Left": 0.0,
+				"Right": 0.0,
+				"Top": 0.0,
+				"Bottom": 0.0
+			},
+			"Scale": {
+				"X": 1.0,
+				"Y": 1.0
+			},
+			"Pivot": {
+				"X": 0.5,
+				"Y": 0.5
+			},
+			"Shear": {
+				"X": 0.0,
+				"Y": 0.0
+			},
+			"Rotation": 0.0,
+			"BackgroundColor": {
+				"R": 0.0,
+				"G": 0.0,
+				"B": 0.0,
+				"A": 0.0
+			},
+			"Enabled": true,
+			"Visible": true,
+			"AutoFocus": false
+		}
+	},
+	{
+		"ID": "5deddcc0437793aab2e472821a66922a",
+		"TypeName": "FlaxEngine.UIControl",
+		"ParentID": "c6080d924771a07c6e24e3984c346743",
+		"Name": "Image",
+		"Transform": {
+			"Translation": {
+				"X": 1424.088134765625,
+				"Y": 68.0,
+				"Z": 0.0
+			}
+		},
+		"Control": "FlaxEngine.GUI.Image",
+		"Data": {
+			"Brush": {
+				"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp",
+				"Texture": "71cf3b764c6cde2e892e1ebeb1b7f8f1",
+				"Filter": 1
+			},
+			"Margin": {
+				"Left": 0.0,
+				"Right": 0.0,
+				"Top": 0.0,
+				"Bottom": 0.0
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 1.0,
+				"B": 1.0,
+				"A": 1.0
+			},
+			"MouseOverColor": {
+				"R": 1.0,
+				"G": 1.0,
+				"B": 1.0,
+				"A": 1.0
+			},
+			"DisabledTint": {
+				"R": 0.5019608,
+				"G": 0.5019608,
+				"B": 0.5019608,
+				"A": 1.0
+			},
+			"KeepAspectRatio": true,
+			"ClipChildren": true,
+			"CullChildren": true,
+			"AnchorMin": {
+				"X": 1.0,
+				"Y": 0.0
+			},
+			"AnchorMax": {
+				"X": 1.0,
+				"Y": 0.0
+			},
+			"Offsets": {
+				"Left": -140.62427,
+				"Right": 64.0,
+				"Top": 68.0,
+				"Bottom": 64.0
+			},
+			"Scale": {
+				"X": 0.8,
+				"Y": 0.8
+			},
+			"Pivot": {
+				"X": 0.5,
+				"Y": 0.5
+			},
+			"Shear": {
+				"X": 0.0,
+				"Y": 0.0
+			},
+			"Rotation": 0.0,
+			"BackgroundColor": {
+				"R": 0.0,
+				"G": 0.0,
+				"B": 0.0,
+				"A": 0.0
+			},
+			"Enabled": true,
+			"Visible": true,
+			"AutoFocus": false
+		}
+	},
+	{
+		"ID": "0e1e1c434b6a98ca2bdd459f0583d609",
+		"TypeName": "Game.BeatingHeart",
+		"ParentID": "5deddcc0437793aab2e472821a66922a",
+		"V": {
+			"BeatScale": 1.04,
+			"BeatPause": 10.0,
+			"BeatTimeOffset": 1.8
+		}
+	},
+	{
+		"ID": "0ebf4789442309f493b126ae0ce05fec",
+		"TypeName": "FlaxEngine.UIControl",
+		"ParentID": "c6080d924771a07c6e24e3984c346743",
+		"Name": "Image 0",
+		"Transform": {
+			"Translation": {
+				"X": 1374.088134765625,
+				"Y": 68.0,
+				"Z": 0.0
+			}
+		},
+		"Control": "FlaxEngine.GUI.Image",
+		"Data": {
+			"Brush": {
+				"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp",
+				"Texture": "71cf3b764c6cde2e892e1ebeb1b7f8f1",
+				"Filter": 1
+			},
+			"Margin": {
+				"Left": 0.0,
+				"Right": 0.0,
+				"Top": 0.0,
+				"Bottom": 0.0
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 1.0,
+				"B": 1.0,
+				"A": 1.0
+			},
+			"MouseOverColor": {
+				"R": 1.0,
+				"G": 1.0,
+				"B": 1.0,
+				"A": 1.0
+			},
+			"DisabledTint": {
+				"R": 0.5019608,
+				"G": 0.5019608,
+				"B": 0.5019608,
+				"A": 1.0
+			},
+			"KeepAspectRatio": true,
+			"ClipChildren": true,
+			"CullChildren": true,
+			"AnchorMin": {
+				"X": 1.0,
+				"Y": 0.0
+			},
+			"AnchorMax": {
+				"X": 1.0,
+				"Y": 0.0
+			},
+			"Offsets": {
+				"Left": -190.62427,
+				"Right": 64.0,
+				"Top": 68.0,
+				"Bottom": 64.0
+			},
+			"Scale": {
+				"X": 0.8,
+				"Y": 0.8
+			},
+			"Pivot": {
+				"X": 0.5,
+				"Y": 0.5
+			},
+			"Shear": {
+				"X": 0.0,
+				"Y": 0.0
+			},
+			"Rotation": 0.0,
+			"BackgroundColor": {
+				"R": 0.0,
+				"G": 0.0,
+				"B": 0.0,
+				"A": 0.0
+			},
+			"Enabled": true,
+			"Visible": true,
+			"AutoFocus": false
+		}
+	},
+	{
+		"ID": "b1131a574babbf17968406b8a608d20b",
+		"TypeName": "Game.BeatingHeart",
+		"ParentID": "0ebf4789442309f493b126ae0ce05fec",
+		"V": {
+			"BeatScale": 1.04,
+			"BeatPause": 10.0,
+			"BeatTimeOffset": 1.4
+		}
+	},
+	{
+		"ID": "8991e99841601ed9c5aed4a5fbd93675",
+		"TypeName": "FlaxEngine.UIControl",
+		"ParentID": "c6080d924771a07c6e24e3984c346743",
+		"Name": "Image 1",
+		"Transform": {
+			"Translation": {
+				"X": 1324.088134765625,
+				"Y": 68.0,
+				"Z": 0.0
+			}
+		},
+		"Control": "FlaxEngine.GUI.Image",
+		"Data": {
+			"Brush": {
+				"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp",
+				"Texture": "71cf3b764c6cde2e892e1ebeb1b7f8f1",
+				"Filter": 1
+			},
+			"Margin": {
+				"Left": 0.0,
+				"Right": 0.0,
+				"Top": 0.0,
+				"Bottom": 0.0
+			},
+			"Color": {
+				"R": 1.0,
+				"G": 1.0,
+				"B": 1.0,
+				"A": 1.0
+			},
+			"MouseOverColor": {
+				"R": 1.0,
+				"G": 1.0,
+				"B": 1.0,
+				"A": 1.0
+			},
+			"DisabledTint": {
+				"R": 0.5019608,
+				"G": 0.5019608,
+				"B": 0.5019608,
+				"A": 1.0
+			},
+			"KeepAspectRatio": true,
+			"ClipChildren": true,
+			"CullChildren": true,
+			"AnchorMin": {
+				"X": 1.0,
+				"Y": 0.0
+			},
+			"AnchorMax": {
+				"X": 1.0,
+				"Y": 0.0
+			},
+			"Offsets": {
+				"Left": -240.62427,
+				"Right": 64.0,
+				"Top": 68.0,
+				"Bottom": 64.0
+			},
+			"Scale": {
+				"X": 0.8,
+				"Y": 0.8
+			},
+			"Pivot": {
+				"X": 0.5,
+				"Y": 0.5
+			},
+			"Shear": {
+				"X": 0.0,
+				"Y": 0.0
+			},
+			"Rotation": 0.0,
+			"BackgroundColor": {
+				"R": 0.0,
+				"G": 0.0,
+				"B": 0.0,
+				"A": 0.0
+			},
+			"Enabled": true,
+			"Visible": true,
+			"AutoFocus": false
+		}
+	},
+	{
+		"ID": "662e5d7b49b78ad699ab7ea23f3b6c6c",
+		"TypeName": "Game.BeatingHeart",
+		"ParentID": "8991e99841601ed9c5aed4a5fbd93675",
+		"V": {
+			"BeatScale": 1.04,
+			"BeatPause": 10.0,
+			"BeatTimeOffset": 1.0
+		}
+	}
+]
+}

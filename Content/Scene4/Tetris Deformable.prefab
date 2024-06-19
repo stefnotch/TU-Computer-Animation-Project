@@ -1,0 +1,154 @@
+{
+	"ID": "a9876bc84b81f3c3b9df959da6e85958",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6512,
+	"Data": [
+	{
+		"ID": "dd0149914a02027c5a1f11a9f8cfa98e",
+		"TypeName": "FlaxEngine.Spline",
+		"Name": "Spline",
+		"Curve": {
+			"Keyframes": [
+				{
+					"Time": 0.0,
+					"Value": {
+						"Translation": {
+							"X": -2.5,
+							"Y": 0.0,
+							"Z": 0.0
+						},
+						"Orientation": {
+							"X": 0.0,
+							"Y": 0.0,
+							"Z": 0.0,
+							"W": 1.0
+						},
+						"Scale": {
+							"X": 1.0,
+							"Y": 1.0,
+							"Z": 1.0
+						}
+					},
+					"TangentIn": {
+						"Translation": {
+							"X": -100.0,
+							"Y": 0.0,
+							"Z": 0.0
+						},
+						"Orientation": {
+							"X": 0.0,
+							"Y": 0.0,
+							"Z": 0.0,
+							"W": 1.0
+						},
+						"Scale": {
+							"X": 1.0,
+							"Y": 1.0,
+							"Z": 1.0
+						}
+					},
+					"TangentOut": {
+						"Translation": {
+							"X": 100.0,
+							"Y": 0.0,
+							"Z": 0.0
+						},
+						"Orientation": {
+							"X": 0.0,
+							"Y": 0.0,
+							"Z": 0.0,
+							"W": 1.0
+						},
+						"Scale": {
+							"X": 1.0,
+							"Y": 1.0,
+							"Z": 1.0
+						}
+					}
+				},
+				{
+					"Time": 1.0,
+					"Value": {
+						"Translation": {
+							"X": 105.0,
+							"Y": 0.0,
+							"Z": 0.0
+						},
+						"Orientation": {
+							"X": 0.0,
+							"Y": 0.0,
+							"Z": 0.0,
+							"W": 1.0
+						},
+						"Scale": {
+							"X": 1.0,
+							"Y": 1.0,
+							"Z": 1.0
+						}
+					},
+					"TangentIn": {
+						"Translation": {
+							"X": -100.0,
+							"Y": 0.0,
+							"Z": 0.0
+						},
+						"Orientation": {
+							"X": 0.0,
+							"Y": 0.0,
+							"Z": 0.0,
+							"W": 1.0
+						},
+						"Scale": {
+							"X": 1.0,
+							"Y": 1.0,
+							"Z": 1.0
+						}
+					},
+					"TangentOut": {
+						"Translation": {
+							"X": 100.0,
+							"Y": 0.0,
+							"Z": 0.0
+						},
+						"Orientation": {
+							"X": 0.0,
+							"Y": 0.0,
+							"Z": 0.0,
+							"W": 1.0
+						},
+						"Scale": {
+							"X": 1.0,
+							"Y": 1.0,
+							"Z": 1.0
+						}
+					}
+				}
+			]
+		}
+	},
+	{
+		"ID": "c8f16d7a47bb8259e78ecb8158bd374a",
+		"TypeName": "FlaxEngine.SplineModel",
+		"ParentID": "dd0149914a02027c5a1f11a9f8cfa98e",
+		"Name": "SplineModel",
+		"Transform": {
+			"Translation": {
+				"X": -50.0,
+				"Y": 0.0,
+				"Z": 0.0
+			}
+		},
+		"Model": "a7a6e2f4417afba31d9716972e6429b2",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "4b44922f45dbda71d22f1086165def4e",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	}
+]
+}

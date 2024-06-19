@@ -328,46 +328,23 @@
 		},
 		{
 			"ID": "ea4559a34cd5eb723ae3c9adaf07ed19",
-			"TypeName": "FlaxEngine.PostFxVolume",
+			"PrefabID": "d2b4d6214150a310f041079475fa33c6",
+			"PrefabObjectID": "eb2592a745629e070722978aa387ef9e",
 			"ParentID": "a62c8b8348916fffd7bbdab9f08c9278",
-			"Name": "PostFxVolume",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 1.0,
-				"Y": 1.0,
-				"Z": 1.0
-			},
-			"IsBounded": false,
 			"Settings": {
 				"AO": {},
 				"GI": {},
 				"Bloom": {},
-				"ToneMapping": {
-					"OverrideFlags": 4
-				},
+				"ToneMapping": {},
 				"ColorGrading": {},
-				"EyeAdaptation": {
-					"OverrideFlags": 1,
-					"Mode": 0
-				},
-				"CameraArtifacts": {
-					"OverrideFlags": 121,
-					"VignetteIntensity": 0.8559999465942383,
-					"GrainAmount": 0.02499999850988388,
-					"GrainParticleSize": 3.0,
-					"GrainSpeed": 9.999999974752428e-7
-				},
+				"EyeAdaptation": {},
+				"CameraArtifacts": {},
 				"LensFlares": {},
 				"DepthOfField": {},
 				"MotionBlur": {},
 				"SSR": {},
 				"AA": {},
-				"PostFxMaterials": {
-					"Materials": [
-						"0837dc0c4dca813196c60e96be86fc66",
-						"86eee5484670bf38ad619f9682dadc6f"
-					]
-				}
+				"PostFxMaterials": {}
 			}
 		},
 		{

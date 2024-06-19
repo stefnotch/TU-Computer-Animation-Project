@@ -145,50 +145,23 @@
 		},
 		{
 			"ID": "b3f8786e43c113502f8e47a65ab1e3a8",
-			"TypeName": "FlaxEngine.PostFxVolume",
+			"PrefabID": "1d254f97446b6139c13f43ada33e264c",
+			"PrefabObjectID": "e4e06a95453c26f78f66a482f600f4ce",
 			"ParentID": "dba5d2d141913da66cf0ae8de5e29e37",
-			"Name": "PostFxVolume",
-			"StaticFlags": 0,
-			"Size": {
-				"X": 1.0,
-				"Y": 1.0,
-				"Z": 1.0
-			},
-			"IsBounded": false,
 			"Settings": {
 				"AO": {},
 				"GI": {},
 				"Bloom": {},
-				"ToneMapping": {
-					"OverrideFlags": 4
-				},
+				"ToneMapping": {},
 				"ColorGrading": {},
-				"EyeAdaptation": {
-					"OverrideFlags": 1,
-					"Mode": 0
-				},
-				"CameraArtifacts": {
-					"OverrideFlags": 40,
-					"VignetteIntensity": 0.8559999465942383,
-					"GrainAmount": 0.02499999850988388,
-					"GrainParticleSize": 3.0,
-					"GrainSpeed": 9.999999974752428e-7
-				},
+				"EyeAdaptation": {},
+				"CameraArtifacts": {},
 				"LensFlares": {},
 				"DepthOfField": {},
-				"MotionBlur": {
-					"OverrideFlags": 1,
-					"Enabled": false
-				},
+				"MotionBlur": {},
 				"SSR": {},
 				"AA": {},
-				"PostFxMaterials": {
-					"Materials": [
-						"32825f994944ff3db24dbe90e77610e8",
-						"0837dc0c4dca813196c60e96be86fc66",
-						"86eee5484670bf38ad619f9682dadc6f"
-					]
-				}
+				"PostFxMaterials": {}
 			}
 		},
 		{
@@ -1504,6 +1477,106 @@
 				"Y": 100.0,
 				"Z": 100.0
 			}
+		},
+		{
+			"ID": "37dbc59c44d2e4e54ce0c5a8abcde07c",
+			"PrefabID": "6c87710d428c225ae397e09cefee3515",
+			"PrefabObjectID": "9e2c24e34620b0c485ceaaa5265c078a",
+			"ParentID": "dba5d2d141913da66cf0ae8de5e29e37",
+			"Transform": {
+				"Orientation": {
+					"X": 1.0,
+					"Y": 4.371138828673793e-8,
+					"Z": 4.371138828673793e-8,
+					"W": 1.910685465164705e-15
+				}
+			},
+			"V": {}
+		},
+		{
+			"ID": "650564794cd2d6bace8774b52bb2026f",
+			"PrefabID": "6c87710d428c225ae397e09cefee3515",
+			"PrefabObjectID": "c6080d924771a07c6e24e3984c346743",
+			"ParentID": "37dbc59c44d2e4e54ce0c5a8abcde07c",
+			"Data": {
+	"ResolutionCurve": {},
+	"DpiCurve": {}
+}
+		},
+		{
+			"ID": "e420a0d041212b677a50bfb7c7ca1e77",
+			"PrefabID": "6c87710d428c225ae397e09cefee3515",
+			"PrefabObjectID": "5deddcc0437793aab2e472821a66922a",
+			"ParentID": "650564794cd2d6bace8774b52bb2026f",
+			"Transform": {
+				"Translation": {
+					"X": 1779.375732421875,
+					"Y": 68.0,
+					"Z": 0.0
+				}
+			},
+			"Data": {
+	"Brush": {
+		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp"
+	}
+}
+		},
+		{
+			"ID": "18b557764f67668fa272bda9febda506",
+			"PrefabID": "6c87710d428c225ae397e09cefee3515",
+			"PrefabObjectID": "0e1e1c434b6a98ca2bdd459f0583d609",
+			"ParentID": "e420a0d041212b677a50bfb7c7ca1e77",
+			"V": {}
+		},
+		{
+			"ID": "1495fcd647740d6991ad048e2e2d97c9",
+			"PrefabID": "6c87710d428c225ae397e09cefee3515",
+			"PrefabObjectID": "0ebf4789442309f493b126ae0ce05fec",
+			"ParentID": "650564794cd2d6bace8774b52bb2026f",
+			"Transform": {
+				"Translation": {
+					"X": 1729.375732421875,
+					"Y": 68.0,
+					"Z": 0.0
+				}
+			},
+			"Data": {
+	"Brush": {
+		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp"
+	}
+}
+		},
+		{
+			"ID": "639dfe074a2382bdd06e56b02686a1bd",
+			"PrefabID": "6c87710d428c225ae397e09cefee3515",
+			"PrefabObjectID": "b1131a574babbf17968406b8a608d20b",
+			"ParentID": "1495fcd647740d6991ad048e2e2d97c9",
+			"V": {}
+		},
+		{
+			"ID": "2dc9bad64ecc7c38dcf307b6e6857311",
+			"PrefabID": "6c87710d428c225ae397e09cefee3515",
+			"PrefabObjectID": "8991e99841601ed9c5aed4a5fbd93675",
+			"ParentID": "650564794cd2d6bace8774b52bb2026f",
+			"Transform": {
+				"Translation": {
+					"X": 1679.375732421875,
+					"Y": 68.0,
+					"Z": 0.0
+				}
+			},
+			"Data": {
+	"Brush": {
+		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp"
+	}
+}
+		},
+		{
+			"ID": "d718e60042a7728d8ac34aa08fd8aca3",
+			"PrefabID": "6c87710d428c225ae397e09cefee3515",
+			"PrefabObjectID": "662e5d7b49b78ad699ab7ea23f3b6c6c",
+			"ParentID": "2dc9bad64ecc7c38dcf307b6e6857311",
+			"V": {}
 		}
 	]
 }
