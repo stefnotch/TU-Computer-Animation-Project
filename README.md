@@ -58,6 +58,8 @@ What did I do? I made a short video of a Tetris game in hell. The obvious twist 
 
 https://sketchfab.com/3d-models/defender-arcade-9e656531a0ea4b6595d2337a4006a552
 
+https://sketchfab.com/3d-models/low-poly-fire-exit-083f39278c9e42e18047fbdd67164e81
+
 https://strategywiki.org/wiki/Tetris/Rotation_systems#Super_rotation_system
 
 Heart image is from

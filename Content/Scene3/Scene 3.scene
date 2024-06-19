@@ -1,0 +1,2114 @@
+{
+	"ID": "9dad39ba42603feacbb5bfab837e0bb1",
+	"TypeName": "FlaxEngine.SceneAsset",
+	"EngineBuild": 6512,
+	"Data": [
+		{
+			"ID": "9dad39ba42603feacbb5bfab837e0bb1",
+			"TypeName": "FlaxEngine.Scene",
+			"LightmapSettings": {
+				"IndirectLightingIntensity": 1.0,
+				"GlobalObjectsScale": 1.0,
+				"ChartsPadding": 3,
+				"AtlasSize": 1024,
+				"BounceCount": 1,
+				"CompressLightmaps": true,
+				"UseGeometryWithNoMaterials": true,
+				"Quality": 10
+			}
+		},
+		{
+			"ID": "9012c03747a26115941c8d9f08c67626",
+			"TypeName": "Game.ShowTime",
+			"ParentID": "9dad39ba42603feacbb5bfab837e0bb1",
+			"V": {}
+		},
+		{
+			"ID": "a07074284780835e84c7efaa0feada16",
+			"TypeName": "FlaxEngine.SceneAnimationPlayer",
+			"ParentID": "9dad39ba42603feacbb5bfab837e0bb1",
+			"Name": "SceneAnimationPlayer",
+			"Animation": "a6df9c6b4202290060f9709c50969e4d",
+			"PlayOnStart": true
+		},
+		{
+			"ID": "fa2a4d3e430bc6b88ad11f97c08b58d5",
+			"TypeName": "FlaxEngine.DirectionalLight",
+			"ParentID": "9dad39ba42603feacbb5bfab837e0bb1",
+			"Name": "Sun",
+			"Transform": {
+				"Translation": {
+					"X": 636.6801147460938,
+					"Y": 160.0,
+					"Z": 0.0
+				},
+				"Orientation": {
+					"X": 0.20373782515525819,
+					"Y": -0.19501125812530518,
+					"Z": 0.04145092889666557,
+					"W": 0.9585109949111939
+				}
+			},
+			"Brightness": 4.0,
+			"ShadowsMode": 0
+		},
+		{
+			"ID": "8e48e1ac4ed8848b74608db63f363491",
+			"TypeName": "FlaxEngine.DirectionalLight",
+			"ParentID": "9dad39ba42603feacbb5bfab837e0bb1",
+			"Name": "DirectionalLight",
+			"Transform": {
+				"Translation": {
+					"X": -541.850830078125,
+					"Y": 0.0,
+					"Z": 0.0
+				},
+				"Orientation": {
+					"X": 0.18761388957500459,
+					"Y": 0.17888733744621278,
+					"Z": -0.034772176295518878,
+					"W": 0.9651897549629211
+				}
+			},
+			"Brightness": 4.0,
+			"ShadowsMode": 0
+		},
+		{
+			"ID": "25ef0cff47c97c708086fdb3a695304e",
+			"TypeName": "FlaxEngine.DirectionalLight",
+			"ParentID": "9dad39ba42603feacbb5bfab837e0bb1",
+			"Name": "DirectionalLight",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -411.67071533203127,
+					"Z": 0.0
+				},
+				"Orientation": {
+					"X": -0.4682901203632355,
+					"Y": 0.2263682335615158,
+					"Z": 0.12547795474529267,
+					"W": 0.8448177576065064
+				}
+			},
+			"Brightness": 2.0,
+			"ShadowsMode": 0
+		},
+		{
+			"ID": "19f3ef9e480e7c93d76a95898cfb6460",
+			"TypeName": "FlaxEngine.Sky",
+			"ParentID": "9dad39ba42603feacbb5bfab837e0bb1",
+			"Name": "Sky",
+			"Transform": {
+				"Translation": {
+					"X": 40.0,
+					"Y": 150.0,
+					"Z": 0.0
+				}
+			},
+			"Sun": "fa2a4d3e430bc6b88ad11f97c08b58d5"
+		},
+		{
+			"ID": "1e51453f4cbf68b91fc60c9acd02a1ed",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "9dad39ba42603feacbb5bfab837e0bb1",
+			"Name": "Background",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -153.23300170898438,
+					"Z": 800.0
+				},
+				"Scale": {
+					"X": 16.0,
+					"Y": 12.0,
+					"Z": 1.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "1771b53343d461faacdf2c8581b1fdbb",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "d570fe0a44d277641ce0babf06c820a9",
+			"TypeName": "FlaxEngine.Camera",
+			"ParentID": "9dad39ba42603feacbb5bfab837e0bb1",
+			"Name": "Camera"
+		},
+		{
+			"ID": "b3f8786e43c113502f8e47a65ab1e3a8",
+			"PrefabID": "1d254f97446b6139c13f43ada33e264c",
+			"PrefabObjectID": "e4e06a95453c26f78f66a482f600f4ce",
+			"ParentID": "9dad39ba42603feacbb5bfab837e0bb1",
+			"Settings": {
+				"AO": {},
+				"GI": {},
+				"Bloom": {},
+				"ToneMapping": {},
+				"ColorGrading": {},
+				"EyeAdaptation": {},
+				"CameraArtifacts": {},
+				"LensFlares": {},
+				"DepthOfField": {},
+				"MotionBlur": {},
+				"SSR": {},
+				"AA": {},
+				"PostFxMaterials": {}
+			}
+		},
+		{
+			"ID": "274deb9c47b6ad3d355cc58b90c0d66b",
+			"TypeName": "FlaxEngine.Skybox",
+			"ParentID": "9dad39ba42603feacbb5bfab837e0bb1",
+			"Name": "Skybox",
+			"CustomMaterial": "c9ad26834f8e4d83e2707cb8cda63e3f"
+		},
+		{
+			"ID": "5846397b454c4f864089ff8c97b57ebd",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "9dad39ba42603feacbb5bfab837e0bb1",
+			"Name": "Bounds Center 0",
+			"Transform": {
+				"Translation": {
+					"X": -200.0,
+					"Y": 0.0,
+					"Z": 722.5343017578125
+				}
+			}
+		},
+		{
+			"ID": "61e2520546bbcb65e5ba03b41f0841c2",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "5846397b454c4f864089ff8c97b57ebd",
+			"Name": "Cube",
+			"Transform": {
+				"Translation": {
+					"X": -275.0,
+					"Y": 50.0,
+					"Z": 0.0
+				},
+				"Scale": {
+					"X": 0.5,
+					"Y": 8.0,
+					"Z": 1.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "6cb91af64970ff3a1d2e389d4dbb8897",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "feffcbfa4d6ff49331598a90f0239819",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "61e2520546bbcb65e5ba03b41f0841c2",
+			"Name": "BoxCollider",
+			"Center": {
+				"X": 0.0,
+				"Y": -0.000001955915422513499,
+				"Z": 0.0
+			}
+		},
+		{
+			"ID": "495a1e5f4c43167833a265b8af259ad0",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "5846397b454c4f864089ff8c97b57ebd",
+			"Name": "Cube",
+			"Transform": {
+				"Translation": {
+					"X": 275.0,
+					"Y": 50.0,
+					"Z": 0.0
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 1.0,
+					"Z": 0.0,
+					"W": -4.371138828673793e-8
+				},
+				"Scale": {
+					"X": 0.5,
+					"Y": 8.0,
+					"Z": 1.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "6cb91af64970ff3a1d2e389d4dbb8897",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "7ba05f52489a57c0649199a6c4c92c93",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "495a1e5f4c43167833a265b8af259ad0",
+			"Name": "BoxCollider",
+			"Center": {
+				"X": 0.0,
+				"Y": -0.000001955915422513499,
+				"Z": 0.0
+			}
+		},
+		{
+			"ID": "45c25fb7471e7fdc756f87b2e6bbb9cf",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "5846397b454c4f864089ff8c97b57ebd",
+			"Name": "Cube 1",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -375.0,
+					"Z": 0.0
+				},
+				"Orientation": {
+					"X": 0.0,
+					"Y": 1.0,
+					"Z": 0.0,
+					"W": -4.371138828673793e-8
+				},
+				"Scale": {
+					"X": 6.0,
+					"Y": 0.5,
+					"Z": 1.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "6cb91af64970ff3a1d2e389d4dbb8897",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "76ee0cab47e38bdc91d41e8c607acc1f",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "45c25fb7471e7fdc756f87b2e6bbb9cf",
+			"Name": "BoxCollider",
+			"Center": {
+				"X": 0.0,
+				"Y": -0.000001955915422513499,
+				"Z": 0.0
+			}
+		},
+		{
+			"ID": "af9037ab4b8347278b333abb3c06402b",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "9dad39ba42603feacbb5bfab837e0bb1",
+			"Name": "Background 0",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -153.23300170898438,
+					"Z": 800.0
+				},
+				"Scale": {
+					"X": 16.0,
+					"Y": 12.0,
+					"Z": 1.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "1771b53343d461faacdf2c8581b1fdbb",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "1b7a3eb64497c76d809b7c9ed856f055",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "9dad39ba42603feacbb5bfab837e0bb1",
+			"Name": "Grid 1",
+			"Transform": {
+				"Translation": {
+					"X": -200.0,
+					"Y": 50.0,
+					"Z": 796.5571899414063
+				},
+				"Scale": {
+					"X": 5.0,
+					"Y": 8.0,
+					"Z": 1.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "c6517eb542626d134d6ec4bcc653bd9e",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "d4b9f836462ed436bc3c04ba9bca9480",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "9dad39ba42603feacbb5bfab837e0bb1",
+			"Name": "Tetris Pieces",
+			"Transform": {
+				"Translation": {
+					"X": -400.0,
+					"Y": 600.0,
+					"Z": 700.0
+				}
+			}
+		},
+		{
+			"ID": "24463ba94e03f9b9082b77bf003df451",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "d4b9f836462ed436bc3c04ba9bca9480",
+			"Name": "tetris-cube",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -900.0,
+					"Z": 0.0
+				}
+			},
+			"Model": "a7a6e2f4417afba31d9716972e6429b2",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "569124af40ae9717f3e904bf88eb0a93",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "d4b9f836462ed436bc3c04ba9bca9480",
+			"Name": "tetris-cube 0",
+			"Transform": {
+				"Translation": {
+					"X": 100.0,
+					"Y": -800.0,
+					"Z": 0.0
+				}
+			},
+			"Model": "a7a6e2f4417afba31d9716972e6429b2",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "dd76bfc94808b89ae858faa8a3c27fe3",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "d4b9f836462ed436bc3c04ba9bca9480",
+			"Name": "tetris-cube 1",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -800.0,
+					"Z": 0.0
+				}
+			},
+			"Model": "a7a6e2f4417afba31d9716972e6429b2",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "2620adb84e790858090ac1a43fae0fdb",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "d4b9f836462ed436bc3c04ba9bca9480",
+			"Name": "tetris-cube 2",
+			"Transform": {
+				"Translation": {
+					"X": 100.0,
+					"Y": -900.0,
+					"Z": 0.0
+				}
+			},
+			"Model": "a7a6e2f4417afba31d9716972e6429b2",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "3c9fb95244ae86e38bf64a9b25f05ae6",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "d4b9f836462ed436bc3c04ba9bca9480",
+			"Name": "EmptyActor",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -400.0,
+					"Z": 0.0
+				}
+			}
+		},
+		{
+			"ID": "899b890743bc7ce45c8a06af9b429c39",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "3c9fb95244ae86e38bf64a9b25f05ae6",
+			"Name": "tetris-cube Green",
+			"Transform": {
+				"Translation": {
+					"X": 100.0,
+					"Y": -300.0,
+					"Z": 0.0
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "a7a6e2f4417afba31d9716972e6429b2",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "2064b05040ba6bb9805c58946c3dd8f1",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "a1da0a1340c75706123397866cd9a610",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "3c9fb95244ae86e38bf64a9b25f05ae6",
+			"Name": "tetris-cube Green 0",
+			"Transform": {
+				"Translation": {
+					"X": 100.0,
+					"Y": -200.0,
+					"Z": 0.0
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "a7a6e2f4417afba31d9716972e6429b2",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "2064b05040ba6bb9805c58946c3dd8f1",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "2bc88cb94628bf55d795ada2f3cdd873",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "3c9fb95244ae86e38bf64a9b25f05ae6",
+			"Name": "tetris-cube Green 1",
+			"Transform": {
+				"Translation": {
+					"X": 100.0,
+					"Y": -100.0,
+					"Z": 0.0
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "a7a6e2f4417afba31d9716972e6429b2",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "2064b05040ba6bb9805c58946c3dd8f1",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "78f672514d7dafb64cba1c8ea39c6934",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "3c9fb95244ae86e38bf64a9b25f05ae6",
+			"Name": "tetris-cube Green 2",
+			"Transform": {
+				"Translation": {
+					"X": 200.0,
+					"Y": -100.0,
+					"Z": 0.0
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "a7a6e2f4417afba31d9716972e6429b2",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "2064b05040ba6bb9805c58946c3dd8f1",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "d48e4f3b48880770e944fcb9c217e3cb",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "9dad39ba42603feacbb5bfab837e0bb1",
+			"Name": "Next Piece Container",
+			"Transform": {
+				"Translation": {
+					"X": 421.4624938964844,
+					"Y": 100.09335327148438,
+					"Z": 787.7103271484375
+				},
+				"Scale": {
+					"X": 3.129999876022339,
+					"Y": 3.1999998092651369,
+					"Z": 1.0
+				}
+			}
+		},
+		{
+			"ID": "9e93e48542ca7588c815d280e7726407",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "d48e4f3b48880770e944fcb9c217e3cb",
+			"Name": "Next Piece Container",
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "6cb91af64970ff3a1d2e389d4dbb8897",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "894ca6e24f4d49c6013242984d7dd93d",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "d48e4f3b48880770e944fcb9c217e3cb",
+			"Name": "Next S Piece",
+			"Transform": {
+				"Translation": {
+					"X": 55.64153289794922,
+					"Y": -69.14985656738281,
+					"Z": -618.0418701171875
+				},
+				"Scale": {
+					"X": 0.2555910646915436,
+					"Y": 0.2500000298023224,
+					"Z": 0.800000011920929
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "0e3ee0af4e663ea63df85bae0eca1f66",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "894ca6e24f4d49c6013242984d7dd93d",
+			"Name": "tetris-cube",
+			"Transform": {
+				"Translation": {
+					"X": -310.53802490234377,
+					"Y": 224.54913330078126,
+					"Z": 706.3995361328125
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "a7a6e2f4417afba31d9716972e6429b2",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "fad2952945e1acf498357bbe22879430",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "0adf851f401ba7278efc1b96ba01eb43",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "894ca6e24f4d49c6013242984d7dd93d",
+			"Name": "tetris-cube 0",
+			"Transform": {
+				"Translation": {
+					"X": -213.65249633789063,
+					"Y": 316.65472412109377,
+					"Z": 706.3995361328125
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "a7a6e2f4417afba31d9716972e6429b2",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "fad2952945e1acf498357bbe22879430",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "9b1e30274b3a7dcb4f5b9cb3b4c6f623",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "894ca6e24f4d49c6013242984d7dd93d",
+			"Name": "tetris-cube 1",
+			"Transform": {
+				"Translation": {
+					"X": -117.23075866699219,
+					"Y": 317.3642578125,
+					"Z": 706.3995361328125
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "a7a6e2f4417afba31d9716972e6429b2",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "fad2952945e1acf498357bbe22879430",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "a9b00e1f4aa0ca182ef0eab2ff88117e",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "894ca6e24f4d49c6013242984d7dd93d",
+			"Name": "tetris-cube 2",
+			"Transform": {
+				"Translation": {
+					"X": -213.68736267089845,
+					"Y": 224.54913330078126,
+					"Z": 706.3995361328125
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "a7a6e2f4417afba31d9716972e6429b2",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "fad2952945e1acf498357bbe22879430",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "37dbc59c44d2e4e54ce0c5a8abcde07c",
+			"PrefabID": "6c87710d428c225ae397e09cefee3515",
+			"PrefabObjectID": "9e2c24e34620b0c485ceaaa5265c078a",
+			"ParentID": "9dad39ba42603feacbb5bfab837e0bb1",
+			"Transform": {
+				"Orientation": {
+					"X": 1.0,
+					"Y": 4.371138828673793e-8,
+					"Z": 4.371138828673793e-8,
+					"W": 1.910685465164705e-15
+				}
+			},
+			"V": {
+	"RenderCamera": "d570fe0a44d277641ce0babf06c820a9"
+}
+		},
+		{
+			"ID": "650564794cd2d6bace8774b52bb2026f",
+			"PrefabID": "6c87710d428c225ae397e09cefee3515",
+			"PrefabObjectID": "c6080d924771a07c6e24e3984c346743",
+			"ParentID": "37dbc59c44d2e4e54ce0c5a8abcde07c",
+			"Data": {
+	"ResolutionCurve": {},
+	"DpiCurve": {}
+}
+		},
+		{
+			"ID": "e420a0d041212b677a50bfb7c7ca1e77",
+			"PrefabID": "6c87710d428c225ae397e09cefee3515",
+			"PrefabObjectID": "5deddcc0437793aab2e472821a66922a",
+			"ParentID": "650564794cd2d6bace8774b52bb2026f",
+			"Transform": {
+				"Translation": {
+					"X": 1781.29736328125,
+					"Y": 68.0,
+					"Z": 0.0
+				}
+			},
+			"Data": {
+	"Brush": {
+		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp"
+	}
+}
+		},
+		{
+			"ID": "18b557764f67668fa272bda9febda506",
+			"PrefabID": "6c87710d428c225ae397e09cefee3515",
+			"PrefabObjectID": "0e1e1c434b6a98ca2bdd459f0583d609",
+			"ParentID": "e420a0d041212b677a50bfb7c7ca1e77",
+			"V": {}
+		},
+		{
+			"ID": "1495fcd647740d6991ad048e2e2d97c9",
+			"PrefabID": "6c87710d428c225ae397e09cefee3515",
+			"PrefabObjectID": "0ebf4789442309f493b126ae0ce05fec",
+			"ParentID": "650564794cd2d6bace8774b52bb2026f",
+			"Transform": {
+				"Translation": {
+					"X": 1731.29736328125,
+					"Y": 68.0,
+					"Z": 0.0
+				}
+			},
+			"Data": {
+	"Brush": {
+		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp"
+	}
+}
+		},
+		{
+			"ID": "639dfe074a2382bdd06e56b02686a1bd",
+			"PrefabID": "6c87710d428c225ae397e09cefee3515",
+			"PrefabObjectID": "b1131a574babbf17968406b8a608d20b",
+			"ParentID": "1495fcd647740d6991ad048e2e2d97c9",
+			"V": {}
+		},
+		{
+			"ID": "2dc9bad64ecc7c38dcf307b6e6857311",
+			"PrefabID": "6c87710d428c225ae397e09cefee3515",
+			"PrefabObjectID": "8991e99841601ed9c5aed4a5fbd93675",
+			"ParentID": "650564794cd2d6bace8774b52bb2026f",
+			"IsActive": false,
+			"Transform": {
+				"Translation": {
+					"X": 1681.29736328125,
+					"Y": 68.0,
+					"Z": 0.0
+				}
+			},
+			"Data": {
+	"Brush": {
+		"$type": "FlaxEngine.GUI.TextureBrush, FlaxEngine.CSharp"
+	},
+	"Visible": false
+}
+		},
+		{
+			"ID": "d718e60042a7728d8ac34aa08fd8aca3",
+			"PrefabID": "6c87710d428c225ae397e09cefee3515",
+			"PrefabObjectID": "662e5d7b49b78ad699ab7ea23f3b6c6c",
+			"ParentID": "2dc9bad64ecc7c38dcf307b6e6857311",
+			"V": {}
+		},
+		{
+			"ID": "4beffc7a46327f95da766498bc549269",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "9dad39ba42603feacbb5bfab837e0bb1",
+			"IsActive": false,
+			"Name": "Shatter",
+			"Transform": {
+				"Translation": {
+					"X": -200.0,
+					"Y": 100.0,
+					"Z": 700.0
+				},
+				"Scale": {
+					"X": 0.5,
+					"Y": 0.5,
+					"Z": 0.5
+				}
+			}
+		},
+		{
+			"ID": "4519067743d375ce847e9ca3c8fe1911",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 0",
+			"OverrideMass": true
+		},
+		{
+			"ID": "d5e696b448785e82901f7481596e3f7d",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "4519067743d375ce847e9ca3c8fe1911",
+			"Name": "tetris-cube-shatter Cube_cell",
+			"Model": "fb3d5074497f8a48f302d093604046f5",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "a2e862c74d5fe237ac200a81102b6014",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "4519067743d375ce847e9ca3c8fe1911",
+			"Name": "tetris-cube-shatter Cube_cell Collision",
+			"CollisionData": "b42c752342e8deb83b41619b52b84a7c"
+		},
+		{
+			"ID": "1ecd08764298cc7c133ce5b3d04b17f8",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 1",
+			"OverrideMass": true
+		},
+		{
+			"ID": "a400d7cb47a201b5070117b52363ed4b",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "1ecd08764298cc7c133ce5b3d04b17f8",
+			"Name": "tetris-cube-shatter Cube_cell.001",
+			"Model": "f42f87b940c135d88b9ecaa915d6ba05",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "e29683dc48a54290f45a5aaa48876126",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "1ecd08764298cc7c133ce5b3d04b17f8",
+			"Name": "tetris-cube-shatter Cube_cell.001 Collision",
+			"CollisionData": "f5a9bcad40de53cc08b6d79f0f6f76ba"
+		},
+		{
+			"ID": "ed22a4b3447fec67ff8de19cacdd0da4",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 2",
+			"OverrideMass": true
+		},
+		{
+			"ID": "97bd985b4ea9d356f683ea83ad74b6a6",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "ed22a4b3447fec67ff8de19cacdd0da4",
+			"Name": "tetris-cube-shatter Cube_cell.002",
+			"Model": "3f7c304d44a3a4b16a245da6ed6d5ded",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "9c6f1b7f4a16e310fc3cab9a0cc15556",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "ed22a4b3447fec67ff8de19cacdd0da4",
+			"Name": "tetris-cube-shatter Cube_cell.002 Collision",
+			"CollisionData": "5ee9a82549487e25c98d2ea5f7dad526"
+		},
+		{
+			"ID": "4b900a7c4c4f58503d709ebccadfbe05",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 3",
+			"OverrideMass": true
+		},
+		{
+			"ID": "3a25e8be448bdbe9a835168ba2f5fe4e",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "4b900a7c4c4f58503d709ebccadfbe05",
+			"Name": "tetris-cube-shatter Cube_cell.003",
+			"Model": "bc6060f648d0ecc68538c586d77c8bd0",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "31380d2846a64277e0c9bd9edcefa4e5",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "4b900a7c4c4f58503d709ebccadfbe05",
+			"Name": "tetris-cube-shatter Cube_cell.003 Collision",
+			"CollisionData": "6e212bf64e45dd44eb429db43aa3417c"
+		},
+		{
+			"ID": "4aafcb2b41087141e28c25afc400d3c7",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 4",
+			"OverrideMass": true
+		},
+		{
+			"ID": "bd0596744881e6b57162f1bef6a1638a",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "4aafcb2b41087141e28c25afc400d3c7",
+			"Name": "tetris-cube-shatter Cube_cell.004",
+			"Model": "717f82ca436c575e604bd28d706810d8",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "5ce372624ad1f85699af7081bcc02892",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "4aafcb2b41087141e28c25afc400d3c7",
+			"Name": "tetris-cube-shatter Cube_cell.004 Collision",
+			"CollisionData": "2daa5f03476dd5d777971298fd3aa697"
+		},
+		{
+			"ID": "3b3c359f42ed99e8f1a944811037575c",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 5",
+			"OverrideMass": true
+		},
+		{
+			"ID": "208b42364e6d3d6616e7c79b7eea6980",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "3b3c359f42ed99e8f1a944811037575c",
+			"Name": "tetris-cube-shatter Cube_cell.005",
+			"Model": "3b5f9843486da01f11a30b8f9e0b2c45",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "f41aefed463a336603c84795023566a8",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "3b3c359f42ed99e8f1a944811037575c",
+			"Name": "tetris-cube-shatter Cube_cell.005 Collision",
+			"CollisionData": "40c3e98d49812a370302f381c03a2e32"
+		},
+		{
+			"ID": "dadd227d495ab2fd709f728682af7959",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 6",
+			"OverrideMass": true
+		},
+		{
+			"ID": "c2d6188f4fb7f931701069b07c1d0f72",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "dadd227d495ab2fd709f728682af7959",
+			"Name": "tetris-cube-shatter Cube_cell.006",
+			"Model": "233a0d5f4713fb1ba34d3ab89f9e16ff",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "1b9587994bf8c084933f4392b0e77cc6",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "dadd227d495ab2fd709f728682af7959",
+			"Name": "tetris-cube-shatter Cube_cell.006 Collision",
+			"CollisionData": "8362150644ac54bcc12c8aa3481662b7"
+		},
+		{
+			"ID": "27e2d2fa49fcae4658bd31bd491377dc",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 7",
+			"OverrideMass": true
+		},
+		{
+			"ID": "ea182a34489b5758b219f089534bf381",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "27e2d2fa49fcae4658bd31bd491377dc",
+			"Name": "tetris-cube-shatter Cube_cell.007",
+			"Model": "695733d44afa105a23ea3688c64e6329",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "bc7f4bf7411e285167046baf54cd93d2",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "27e2d2fa49fcae4658bd31bd491377dc",
+			"Name": "tetris-cube-shatter Cube_cell.007 Collision",
+			"CollisionData": "1d856b174274dce6fe018ea12ce17cb7"
+		},
+		{
+			"ID": "50b9b4dc4f39982466a707821258b532",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 8",
+			"OverrideMass": true
+		},
+		{
+			"ID": "c982f67249750880c93390878443eab8",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "50b9b4dc4f39982466a707821258b532",
+			"Name": "tetris-cube-shatter Cube_cell.008",
+			"Model": "29acd1bb46535adbd94ca98edcff17b5",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "35e0c3474b4147b7eb38f28914c6bfb4",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "50b9b4dc4f39982466a707821258b532",
+			"Name": "tetris-cube-shatter Cube_cell.008 Collision",
+			"CollisionData": "77a3dc2b4ec7b4c3a48ea69b0860d6bf"
+		},
+		{
+			"ID": "3669031c4fcb79ea0173d4b823762c61",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 9",
+			"OverrideMass": true
+		},
+		{
+			"ID": "8f40bf8c4b48da34a06e36bce5093288",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "3669031c4fcb79ea0173d4b823762c61",
+			"Name": "tetris-cube-shatter Cube_cell.009",
+			"Model": "0b8208374e827bb0217af08cf644f8b1",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "b9bb7e294a54163ffec12885eaebb363",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "3669031c4fcb79ea0173d4b823762c61",
+			"Name": "tetris-cube-shatter Cube_cell.009 Collision",
+			"CollisionData": "20d8642245db4faa3b752a90a742200d"
+		},
+		{
+			"ID": "9a78056d432f1b8bea242590f0a8d9ff",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 10",
+			"OverrideMass": true
+		},
+		{
+			"ID": "56f7bff24ec2e5a43b6d7da800feda13",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "9a78056d432f1b8bea242590f0a8d9ff",
+			"Name": "tetris-cube-shatter Cube_cell.010",
+			"Model": "7a1bd8ad40be2fdd123220b210d19a75",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "86913b0e405a4beb068d02b4b2b0d3e2",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "9a78056d432f1b8bea242590f0a8d9ff",
+			"Name": "tetris-cube-shatter Cube_cell.010 Collision",
+			"CollisionData": "ae4c12684f22cd3076e52c9ba07a69d1"
+		},
+		{
+			"ID": "b63691064d96c83200666f9f4bbd22df",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 11",
+			"OverrideMass": true
+		},
+		{
+			"ID": "cf41d0d448741a6a6b01beb7a7a0fff0",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "b63691064d96c83200666f9f4bbd22df",
+			"Name": "tetris-cube-shatter Cube_cell.011",
+			"Model": "d1757436471e92e1306df2ae4dcb5a05",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "0f79f1104389d54383c4bf8b06d8aa73",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "b63691064d96c83200666f9f4bbd22df",
+			"Name": "tetris-cube-shatter Cube_cell.011 Collision",
+			"CollisionData": "9467e3f04465ab1a1682b587756ab9c5"
+		},
+		{
+			"ID": "46f60eac46c7397245751895c9bfeaec",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 12",
+			"OverrideMass": true
+		},
+		{
+			"ID": "4eb1babe4d8f3254b08b2c888fbaae1f",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "46f60eac46c7397245751895c9bfeaec",
+			"Name": "tetris-cube-shatter Cube_cell.012",
+			"Model": "dfb68ff0484a9e86b78f329327bedf99",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "2028615d4f93416b7971e7a7a2f2827f",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "46f60eac46c7397245751895c9bfeaec",
+			"Name": "tetris-cube-shatter Cube_cell.012 Collision",
+			"CollisionData": "415998344b52e561b1c6d6a8dad4041f"
+		},
+		{
+			"ID": "ebbfb5d943dce80fd3b1b49168e7b8f3",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 13",
+			"OverrideMass": true
+		},
+		{
+			"ID": "97ae6c3b46df15e5b371acb57d8e15b4",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "ebbfb5d943dce80fd3b1b49168e7b8f3",
+			"Name": "tetris-cube-shatter Cube_cell.013",
+			"Model": "3028e59e4eedb70c582ff9a11d37177b",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "9212e5174116695529e702a67b9a14e9",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "ebbfb5d943dce80fd3b1b49168e7b8f3",
+			"Name": "tetris-cube-shatter Cube_cell.013 Collision",
+			"CollisionData": "3eb3a55b4e4177faa44e02ad7d2f75d1"
+		},
+		{
+			"ID": "a68c6a0f43fe30965fd4d2a2eb0591c4",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 14",
+			"OverrideMass": true
+		},
+		{
+			"ID": "1cb5be9e4a367d59cce4679241cf0ee4",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "a68c6a0f43fe30965fd4d2a2eb0591c4",
+			"Name": "tetris-cube-shatter Cube_cell.014",
+			"Model": "21cd080448a3fbf7b52e8d8a7b77e5b0",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "ef3ed65f4edd3701b244278d116718e3",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "a68c6a0f43fe30965fd4d2a2eb0591c4",
+			"Name": "tetris-cube-shatter Cube_cell.014 Collision",
+			"CollisionData": "e53ec1b54c969c21f53bf6810b3bc154"
+		},
+		{
+			"ID": "df9c075c4736dc4bfd199eae10a35aa6",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 15",
+			"OverrideMass": true
+		},
+		{
+			"ID": "1ddf70274a502016c2938abebfcb5696",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "df9c075c4736dc4bfd199eae10a35aa6",
+			"Name": "tetris-cube-shatter Cube_cell.015",
+			"Model": "880935e742f552a8aca0a2810ef28372",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "536f20e64fa895026faf168fdc0076bc",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "df9c075c4736dc4bfd199eae10a35aa6",
+			"Name": "tetris-cube-shatter Cube_cell.015 Collision",
+			"CollisionData": "821dba8945f99b95337cebb755c31f81"
+		},
+		{
+			"ID": "652a85fd4cd256dcce35d8a6a49c9de8",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 16",
+			"OverrideMass": true
+		},
+		{
+			"ID": "f41a2c4045a3ce9be0f8dd8c11b3e7db",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "652a85fd4cd256dcce35d8a6a49c9de8",
+			"Name": "tetris-cube-shatter Cube_cell.016",
+			"Model": "40dde1f44e7da4daaa7b88a85e97e212",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "f817019c43c90d38143066bb7e26d899",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "652a85fd4cd256dcce35d8a6a49c9de8",
+			"Name": "tetris-cube-shatter Cube_cell.016 Collision",
+			"CollisionData": "70ec99744e9e3e60f01871adca90ebb0"
+		},
+		{
+			"ID": "8881335945f8fc2dd022b8ad1350e53d",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 17",
+			"OverrideMass": true
+		},
+		{
+			"ID": "fd0392964c6f0f57393e1ca64a471650",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "8881335945f8fc2dd022b8ad1350e53d",
+			"Name": "tetris-cube-shatter Cube_cell.017",
+			"Model": "5d606f96467829524a0ac49cd791f728",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "fb0c41a74312e223db6a9eb5bd3d94eb",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "8881335945f8fc2dd022b8ad1350e53d",
+			"Name": "tetris-cube-shatter Cube_cell.017 Collision",
+			"CollisionData": "9bc882604d9fb82128dc22b305dba7f0"
+		},
+		{
+			"ID": "ccd0b592432a68abc499899ae18b5a14",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 18",
+			"OverrideMass": true
+		},
+		{
+			"ID": "f64f3a454328d77c4e07aab2c1e8a17a",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "ccd0b592432a68abc499899ae18b5a14",
+			"Name": "tetris-cube-shatter Cube_cell.018",
+			"Model": "8b4dc697482eb41c8c0c34bbfae87468",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "9db2d33e4b403827dfff23b75c8843e1",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "ccd0b592432a68abc499899ae18b5a14",
+			"Name": "tetris-cube-shatter Cube_cell.018 Collision",
+			"CollisionData": "dab5fc6f4ee88d4cf4d8c2a24f41484f"
+		},
+		{
+			"ID": "700c6b774fc47605ce29628104d7e079",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 19",
+			"OverrideMass": true
+		},
+		{
+			"ID": "95eb33c149324cb195da08911acefee4",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 20",
+			"OverrideMass": true
+		},
+		{
+			"ID": "eab4743b4bb0e0186319ad87d9972909",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "95eb33c149324cb195da08911acefee4",
+			"Name": "tetris-cube-shatter Cube_cell.020",
+			"Model": "0545c68b4aa559becc14dfa863857323",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "3a2f952647a8126fae7928a2e0695635",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "95eb33c149324cb195da08911acefee4",
+			"Name": "tetris-cube-shatter Cube_cell.020 Collision",
+			"CollisionData": "bc99ca5c43372e6d3f19b09f7aeede6d"
+		},
+		{
+			"ID": "2ac8c28349f8abfa69ebd39723d2a3f6",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 21",
+			"OverrideMass": true
+		},
+		{
+			"ID": "959da28f453db8ef1815058a614eb212",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "2ac8c28349f8abfa69ebd39723d2a3f6",
+			"Name": "tetris-cube-shatter Cube_cell.021",
+			"Model": "2a49fa09498387b2b792b2b0f7382224",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "5dac24f94473a8e60201c7ab9c1d627d",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "2ac8c28349f8abfa69ebd39723d2a3f6",
+			"Name": "tetris-cube-shatter Cube_cell.021 Collision",
+			"CollisionData": "ebcb3ed64a071ae5f2d8ebb2013621d6"
+		},
+		{
+			"ID": "e2d187344bc895894a1e76adf639f1ea",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 22",
+			"OverrideMass": true
+		},
+		{
+			"ID": "896ee1094321911bbcaa09946f121bda",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "e2d187344bc895894a1e76adf639f1ea",
+			"Name": "tetris-cube-shatter Cube_cell.022",
+			"Model": "d14add1e4f6085befb766784d983c85a",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "a6b4a242421b8d7ff1d1958e48fed516",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "e2d187344bc895894a1e76adf639f1ea",
+			"Name": "tetris-cube-shatter Cube_cell.022 Collision",
+			"CollisionData": "64df70ca4e57f84e64c6339bcf49420f"
+		},
+		{
+			"ID": "410a1a5c4fca7f2419fa8aa23ebd6d63",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 23",
+			"OverrideMass": true
+		},
+		{
+			"ID": "c93ac23b4ea2a1ff9d0b2984215e358f",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "410a1a5c4fca7f2419fa8aa23ebd6d63",
+			"Name": "tetris-cube-shatter Cube_cell.023",
+			"Model": "993df5a24141c836a993b9a0854426be",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "2d6a79a446758a52402a5e8860fbfdf6",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "410a1a5c4fca7f2419fa8aa23ebd6d63",
+			"Name": "tetris-cube-shatter Cube_cell.023 Collision",
+			"CollisionData": "73d135f8417c5891bbef67a9b98c12ce"
+		},
+		{
+			"ID": "58d9aa4a4d0c327646cdc9967b572044",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 24",
+			"OverrideMass": true
+		},
+		{
+			"ID": "9344a8f74206d9ef5754699780444b60",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "58d9aa4a4d0c327646cdc9967b572044",
+			"Name": "tetris-cube-shatter Cube_cell.024",
+			"Model": "c2d4a5034adbc89b8d4a7e8ddd9baff1",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "47fb2069433b5858e86ba0909a07161d",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "58d9aa4a4d0c327646cdc9967b572044",
+			"Name": "tetris-cube-shatter Cube_cell.024 Collision",
+			"CollisionData": "219d9dd34541bf884c26cd9c59af87db"
+		},
+		{
+			"ID": "848e39744450762f65bfe0a58dcc3687",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 25",
+			"OverrideMass": true
+		},
+		{
+			"ID": "d66ee9284d9a2e02bc6a2d94625d690a",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "848e39744450762f65bfe0a58dcc3687",
+			"Name": "tetris-cube-shatter Cube_cell.025",
+			"Model": "acf7f50d4b1e4438239278b32e5b7299",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "1c5f00994e1182dc28c0f0979875cca3",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "848e39744450762f65bfe0a58dcc3687",
+			"Name": "tetris-cube-shatter Cube_cell.025 Collision",
+			"CollisionData": "5471f2e6428b2d980bf49897a3144be7"
+		},
+		{
+			"ID": "d0b24853422987130a1a6993c53c96de",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 26",
+			"OverrideMass": true
+		},
+		{
+			"ID": "e033912b4d4b3b4eb661c8acbad863ac",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "d0b24853422987130a1a6993c53c96de",
+			"Name": "tetris-cube-shatter Cube_cell.026",
+			"Model": "8fed6e034289043e37b61795494c793c",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "bf2b275e4988a5d25f2bdd8deca17b15",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "d0b24853422987130a1a6993c53c96de",
+			"Name": "tetris-cube-shatter Cube_cell.026 Collision",
+			"CollisionData": "0b99277440dc9cc51757fea5cdfe7a3f"
+		},
+		{
+			"ID": "56727cf9466fa7fb10e4c5bc244dad83",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 27",
+			"OverrideMass": true
+		},
+		{
+			"ID": "fa5734204f130e806cf179880c120edc",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "56727cf9466fa7fb10e4c5bc244dad83",
+			"Name": "tetris-cube-shatter Cube_cell.027",
+			"Model": "631095aa4d62b33aa42bef933403ec19",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "d6e669994715a0085f1762af64c52d6d",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "56727cf9466fa7fb10e4c5bc244dad83",
+			"Name": "tetris-cube-shatter Cube_cell.027 Collision",
+			"CollisionData": "059d0cbc430ca596953092838240da14"
+		},
+		{
+			"ID": "602032024ec509be8b935ebf016ef060",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 28",
+			"OverrideMass": true
+		},
+		{
+			"ID": "6ed51ea843a2f0f851486285bb0123ea",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "602032024ec509be8b935ebf016ef060",
+			"Name": "tetris-cube-shatter Cube_cell.028",
+			"Model": "063147a04ea8bc4fa47465ae6a71222c",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "895e7dba44672e6b82a464a3be8a636c",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "602032024ec509be8b935ebf016ef060",
+			"Name": "tetris-cube-shatter Cube_cell.028 Collision",
+			"CollisionData": "c79f0e324f437d68f9595a88177d1062"
+		},
+		{
+			"ID": "01fb8fa94d3779bba81883b8a4db85c6",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 29",
+			"OverrideMass": true
+		},
+		{
+			"ID": "84454f2f47428c7ad6491baa8cefd45e",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "01fb8fa94d3779bba81883b8a4db85c6",
+			"Name": "tetris-cube-shatter Cube_cell.029",
+			"Model": "53edc3324a91e5f20bd216b5d48c5dc5",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "57c48ee648b3570aab636cb8f8554f53",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "01fb8fa94d3779bba81883b8a4db85c6",
+			"Name": "tetris-cube-shatter Cube_cell.029 Collision",
+			"CollisionData": "94db0f7240c8367bb465119b808c3a8d"
+		},
+		{
+			"ID": "de1387ad48806178ffb206a87efc6f2f",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 30",
+			"OverrideMass": true
+		},
+		{
+			"ID": "da623545431a5fb027881dab50b8ea54",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "de1387ad48806178ffb206a87efc6f2f",
+			"Name": "tetris-cube-shatter Cube_cell.030",
+			"Model": "985c27f64564f9210683fc8e86f0ab3e",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "e3e5ba0c4dcb0beced9b16b44618fa5d",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "de1387ad48806178ffb206a87efc6f2f",
+			"Name": "tetris-cube-shatter Cube_cell.030 Collision",
+			"CollisionData": "c5c957384809bcdd77e04b8e3c7450aa"
+		},
+		{
+			"ID": "e8c08fa940f768bf1b826aa41a69c6cf",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 31",
+			"OverrideMass": true
+		},
+		{
+			"ID": "a57d84814331cbd423232cb291f1be8c",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "e8c08fa940f768bf1b826aa41a69c6cf",
+			"Name": "tetris-cube-shatter Cube_cell.031 Collision",
+			"CollisionData": "9483154f44070a382a1ec69cae43ec88"
+		},
+		{
+			"ID": "1f4ec2a5445f09059d02cda00c1dd023",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "e8c08fa940f768bf1b826aa41a69c6cf",
+			"Name": "tetris-cube-shatter Cube_cell.031",
+			"Model": "c102fac24cd763589fffcb97a244f61b",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "9ba7f3ea41ff44b276a2b8860b6ac291",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 32",
+			"OverrideMass": true
+		},
+		{
+			"ID": "23b74e3142698abb06e752b50565e84f",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "9ba7f3ea41ff44b276a2b8860b6ac291",
+			"Name": "tetris-cube-shatter Cube_cell.032",
+			"Model": "b1c8311f4815dab65f68f99957c9bbb4",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "fdb3ed6c4e4f8b20068b9aa68c66bef9",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "9ba7f3ea41ff44b276a2b8860b6ac291",
+			"Name": "tetris-cube-shatter Cube_cell.032 Collision",
+			"CollisionData": "a76a75cf433ad248eaa1b6b5c5d1ab7f"
+		},
+		{
+			"ID": "8cc3782e4fd208b3e30ced9aff3daef7",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 33",
+			"OverrideMass": true
+		},
+		{
+			"ID": "4fdb22b14ea3fc091a32e2b9ad8bfb3d",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "8cc3782e4fd208b3e30ced9aff3daef7",
+			"Name": "tetris-cube-shatter Cube_cell.033",
+			"Model": "1b8778d74f2409d46a3f1581167b5a22",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "5cb39dc948a1c6fcc5400d8b8635696d",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "8cc3782e4fd208b3e30ced9aff3daef7",
+			"Name": "tetris-cube-shatter Cube_cell.033 Collision",
+			"CollisionData": "29cd353c443196fb3ba244b99f00c6ef"
+		},
+		{
+			"ID": "c8a3cd8a4848133d2880b9847d5b2b38",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 34",
+			"OverrideMass": true
+		},
+		{
+			"ID": "63e8b7c1495f05655b9808b62bbb6fcc",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 35",
+			"OverrideMass": true
+		},
+		{
+			"ID": "ff9957a844e2e58728b8eab744372eba",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "63e8b7c1495f05655b9808b62bbb6fcc",
+			"Name": "tetris-cube-shatter Cube_cell.035",
+			"Model": "e6d86b7b4c7ee26b3900ee99e52604e0",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "e536c2f344e792261db578ac116d947e",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "63e8b7c1495f05655b9808b62bbb6fcc",
+			"Name": "tetris-cube-shatter Cube_cell.035 Collision",
+			"CollisionData": "35434ab64009902f99add79d60600f62"
+		},
+		{
+			"ID": "2d79ed5e4dde2e30173713848936da60",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 36",
+			"OverrideMass": true
+		},
+		{
+			"ID": "337b578d4e4ccbe8eeac8f8ee5df018b",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "2d79ed5e4dde2e30173713848936da60",
+			"Name": "tetris-cube-shatter Cube_cell.036",
+			"Model": "3f78877941738872403e818cc25a5097",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "41d4b43c4f322267d94a8da150517995",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "2d79ed5e4dde2e30173713848936da60",
+			"Name": "tetris-cube-shatter Cube_cell.036 Collision",
+			"CollisionData": "e4ae566e428682dc534a9096e6f1ae4d"
+		},
+		{
+			"ID": "3347eeb846b24c9e5f38409a51a71f4e",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 37",
+			"OverrideMass": true
+		},
+		{
+			"ID": "fa3bffbb4deb40c7d45f2a8fb6696970",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "3347eeb846b24c9e5f38409a51a71f4e",
+			"Name": "tetris-cube-shatter Cube_cell.037",
+			"Model": "c6fff14d4fbf5cdc888339bbe37c6777",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "baf9c9ff4f75233287ff4f84c4c2027d",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "3347eeb846b24c9e5f38409a51a71f4e",
+			"Name": "tetris-cube-shatter Cube_cell.037 Collision",
+			"CollisionData": "85a33d8b44b698bd61f60fa1cd4af90c"
+		},
+		{
+			"ID": "0621db5b454a704b65f6cebc40d083ba",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 38",
+			"OverrideMass": true
+		},
+		{
+			"ID": "2b17527948b26cb2aea8998285cb66e1",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 39",
+			"OverrideMass": true
+		},
+		{
+			"ID": "fa25271b476cef767f9908824b886624",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "2b17527948b26cb2aea8998285cb66e1",
+			"Name": "tetris-cube-shatter Cube_cell.039",
+			"Model": "e9fb73f64cbf90af9547ebb631779b57",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "e62b382242c39e62dd7c2a9b04d6f0f7",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "2b17527948b26cb2aea8998285cb66e1",
+			"Name": "tetris-cube-shatter Cube_cell.039 Collision",
+			"CollisionData": "19afe56b4b30840307efe2a0aa54b1b6"
+		},
+		{
+			"ID": "193febdc4060017ef86a3d862d44b6e2",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 40",
+			"OverrideMass": true
+		},
+		{
+			"ID": "fa2ec4db4e40bf229564d180840876ae",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "193febdc4060017ef86a3d862d44b6e2",
+			"Name": "tetris-cube-shatter Cube_cell.040",
+			"Model": "44c7d8d6424a58e084ae7da3177a0e53",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "8f1286a844ae453835bb3c8888580864",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "193febdc4060017ef86a3d862d44b6e2",
+			"Name": "tetris-cube-shatter Cube_cell.040 Collision",
+			"CollisionData": "e3be17164bfdf88d3f8190801383e068"
+		},
+		{
+			"ID": "4a0177d74cc043438bff5c82a9012db9",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 41",
+			"OverrideMass": true
+		},
+		{
+			"ID": "fdeac48444275457d6abc39262c9827a",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "4beffc7a46327f95da766498bc549269",
+			"Name": "RigidBody 42",
+			"OverrideMass": true
+		},
+		{
+			"ID": "45dcc65d46d157a57c8f23938c033da3",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "fdeac48444275457d6abc39262c9827a",
+			"Name": "tetris-cube-shatter Cube_cell.042",
+			"Model": "393fd76a413d2727a13c89a94ee2116f",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "4a9c1788464d9d26401285b962e26b6d",
+			"TypeName": "FlaxEngine.MeshCollider",
+			"ParentID": "fdeac48444275457d6abc39262c9827a",
+			"Name": "tetris-cube-shatter Cube_cell.042 Collision",
+			"CollisionData": "377c2c1740228f76e8b776bf570bc94a"
+		}
+	]
+}
