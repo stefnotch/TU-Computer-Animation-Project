@@ -87,7 +87,14 @@
 		"ID": "141e42304d5d71e84c79d2a3e99f0c55",
 		"TypeName": "FlaxEngine.BoxCollider",
 		"ParentID": "580ee0a34dfc8dab3829b0ac9f10e5b9",
-		"Name": "BoxCollider"
+		"Name": "BoxCollider",
+		"Transform": {
+			"Translation": {
+				"X": -9.586538314819336,
+				"Y": 0.8887613415718079,
+				"Z": 0.0
+			}
+		}
 	},
 	{
 		"ID": "fcce73a446eaf24f822ee2b0d56496c2",
@@ -96,8 +103,8 @@
 		"Name": "Cube 3",
 		"Transform": {
 			"Translation": {
-				"X": -240.71578979492188,
-				"Y": -510.0127868652344,
+				"X": -236.8773956298828,
+				"Y": -515.2740478515625,
 				"Z": 0.0
 			},
 			"Orientation": {
@@ -138,7 +145,7 @@
 		"Transform": {
 			"Translation": {
 				"X": -178.4007568359375,
-				"Y": -567.87353515625,
+				"Y": -568.0457763671875,
 				"Z": 0.0
 			},
 			"Orientation": {

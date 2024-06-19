@@ -62,9 +62,9 @@ public class TetrisPiece : Script
             _ => throw new ArgumentOutOfRangeException()
         };
         int cubeIndex = 0;
-        for (int i = 0; i < 3; i++)
+        for (int i = 0; i < shape.GetLength(0); i++)
         {
-            for (int j = 0; j < 3; j++)
+            for (int j = 0; j < shape.GetLength(1); j++)
             {
                 if (shape[i, j])
                 {

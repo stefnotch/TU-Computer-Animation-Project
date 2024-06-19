@@ -17,6 +17,7 @@ public struct TetrisKeyframe
 /// </summary>
 public class TetrisAnimaton : Script
 {
+    public float StartTime = 0f;
     public TetrisPiece Piece;
     public List<TetrisKeyframe> Keyframes = [];
     /// Set the duration of each frame in seconds
@@ -31,13 +32,17 @@ public class TetrisAnimaton : Script
             return;
         }
 
-        float FrameTime = Time.GameTime / FrameDuration;
+        float FrameTime = (Time.GameTime - StartTime) / FrameDuration;
+        if (FrameTime < 0)
+        {
+            FrameTime = 0;
+        }
         if (IsLooping)
         {
             FrameTime %= Keyframes.Count;
         }
 
-        var keyframe = Keyframes[Keyframes.Count - 1];
+        var keyframe = Keyframes[^1];
         for (int i = 0; i < Keyframes.Count; i++)
         {
             if (FrameTime < Keyframes[i].Y)
@@ -49,5 +54,6 @@ public class TetrisAnimaton : Script
 
         Piece.rotation = keyframe.Rotation;
         Piece.Actor.LocalPosition = new Vector3(keyframe.X * 100, -Mathf.Floor(keyframe.Y) * 100, 0);
+        Piece.DrawPiece();
     }
 }

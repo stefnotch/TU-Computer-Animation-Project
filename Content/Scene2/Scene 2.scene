@@ -18,10 +18,17 @@
 			}
 		},
 		{
+			"ID": "9012c03747a26115941c8d9f08c67626",
+			"TypeName": "Game.ShowTime",
+			"ParentID": "dba5d2d141913da66cf0ae8de5e29e37",
+			"V": {}
+		},
+		{
 			"ID": "a07074284780835e84c7efaa0feada16",
 			"TypeName": "FlaxEngine.SceneAnimationPlayer",
 			"ParentID": "dba5d2d141913da66cf0ae8de5e29e37",
 			"Name": "SceneAnimationPlayer",
+			"Animation": "8d75ef9844adf9a51eeb7588b12ee74f",
 			"PlayOnStart": true
 		},
 		{
@@ -169,7 +176,10 @@
 				},
 				"LensFlares": {},
 				"DepthOfField": {},
-				"MotionBlur": {},
+				"MotionBlur": {
+					"OverrideFlags": 1,
+					"Enabled": false
+				},
 				"SSR": {},
 				"AA": {},
 				"PostFxMaterials": {
@@ -462,263 +472,6 @@
 			"ParentID": "5f3e47f4416f3d9e82a91a8a5fb9a7b2"
 		},
 		{
-			"ID": "9e93e48542ca7588c815d280e7726407",
-			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "dba5d2d141913da66cf0ae8de5e29e37",
-			"Name": "Next Piece Container",
-			"Transform": {
-				"Translation": {
-					"X": 421.4624938964844,
-					"Y": 100.09335327148438,
-					"Z": 787.7103271484375
-				},
-				"Scale": {
-					"X": 3.130000114440918,
-					"Y": 3.1999998092651369,
-					"Z": 1.0
-				}
-			},
-			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
-			"Buffer": {
-				"Entries": [
-					{
-						"Material": "6cb91af64970ff3a1d2e389d4dbb8897",
-						"ShadowsMode": 3,
-						"Visible": true,
-						"ReceiveDecals": true
-					}
-				]
-			}
-		},
-		{
-			"ID": "c9396e0a4cb6035709fcc587241ad9fe",
-			"TypeName": "FlaxEngine.EmptyActor",
-			"ParentID": "dba5d2d141913da66cf0ae8de5e29e37",
-			"IsActive": false,
-			"Name": "S Piece",
-			"Transform": {
-				"Translation": {
-					"X": 595.6204833984375,
-					"Y": -121.1861572265625,
-					"Z": 169.66844177246095
-				},
-				"Scale": {
-					"X": 0.800000011920929,
-					"Y": 0.800000011920929,
-					"Z": 0.800000011920929
-				}
-			},
-			"StaticFlags": 0
-		},
-		{
-			"ID": "339e829f46671a89ea59939376d93e99",
-			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "c9396e0a4cb6035709fcc587241ad9fe",
-			"Name": "tetris-cube",
-			"Transform": {
-				"Translation": {
-					"X": -292.59613037109377,
-					"Y": 237.92416381835938,
-					"Z": 706.3995361328125
-				}
-			},
-			"StaticFlags": 0,
-			"Model": "a7a6e2f4417afba31d9716972e6429b2",
-			"Buffer": {
-				"Entries": [
-					{
-						"Material": "00000000000000000000000000000000",
-						"ShadowsMode": 3,
-						"Visible": true,
-						"ReceiveDecals": true
-					}
-				]
-			}
-		},
-		{
-			"ID": "1bbfed13410dcad4aa10ddaa336f1aa1",
-			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "c9396e0a4cb6035709fcc587241ad9fe",
-			"Name": "tetris-cube 0",
-			"Transform": {
-				"Translation": {
-					"X": -213.65249633789063,
-					"Y": 316.65472412109377,
-					"Z": 706.3995361328125
-				}
-			},
-			"StaticFlags": 0,
-			"Model": "a7a6e2f4417afba31d9716972e6429b2",
-			"Buffer": {
-				"Entries": [
-					{
-						"Material": "00000000000000000000000000000000",
-						"ShadowsMode": 3,
-						"Visible": true,
-						"ReceiveDecals": true
-					}
-				]
-			}
-		},
-		{
-			"ID": "cfaacd504df15d42af5080af3fae52ac",
-			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "c9396e0a4cb6035709fcc587241ad9fe",
-			"Name": "tetris-cube 1",
-			"Transform": {
-				"Translation": {
-					"X": -133.89080810546876,
-					"Y": 316.65472412109377,
-					"Z": 706.3995361328125
-				}
-			},
-			"StaticFlags": 0,
-			"Model": "a7a6e2f4417afba31d9716972e6429b2",
-			"Buffer": {
-				"Entries": [
-					{
-						"Material": "00000000000000000000000000000000",
-						"ShadowsMode": 3,
-						"Visible": true,
-						"ReceiveDecals": true
-					}
-				]
-			}
-		},
-		{
-			"ID": "1dadf9d14b6a7b608a9a7e94782b275f",
-			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "c9396e0a4cb6035709fcc587241ad9fe",
-			"Name": "tetris-cube 2",
-			"Transform": {
-				"Translation": {
-					"X": -213.6873321533203,
-					"Y": 239.52825927734376,
-					"Z": 706.3995361328125
-				}
-			},
-			"StaticFlags": 0,
-			"Model": "a7a6e2f4417afba31d9716972e6429b2",
-			"Buffer": {
-				"Entries": [
-					{
-						"Material": "00000000000000000000000000000000",
-						"ShadowsMode": 3,
-						"Visible": true,
-						"ReceiveDecals": true
-					}
-				]
-			}
-		},
-		{
-			"ID": "cf272f7b4b057c3469199db8d2e66b9e",
-			"TypeName": "FlaxEngine.EmptyActor",
-			"ParentID": "dba5d2d141913da66cf0ae8de5e29e37",
-			"IsActive": false,
-			"Name": "L Piece",
-			"StaticFlags": 0
-		},
-		{
-			"ID": "e8ddfb5a4e5ec94cbae260b6538ea6b9",
-			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "cf272f7b4b057c3469199db8d2e66b9e",
-			"Name": "tetris-cube",
-			"Transform": {
-				"Translation": {
-					"X": -292.59613037109377,
-					"Y": 316.65472412109377,
-					"Z": 706.3995361328125
-				}
-			},
-			"StaticFlags": 0,
-			"Model": "a7a6e2f4417afba31d9716972e6429b2",
-			"Buffer": {
-				"Entries": [
-					{
-						"Material": "00000000000000000000000000000000",
-						"ShadowsMode": 3,
-						"Visible": true,
-						"ReceiveDecals": true
-					}
-				]
-			}
-		},
-		{
-			"ID": "fde55ecb4a6be8e2691536ad4845aeac",
-			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "cf272f7b4b057c3469199db8d2e66b9e",
-			"Name": "tetris-cube 0",
-			"Transform": {
-				"Translation": {
-					"X": -213.65249633789063,
-					"Y": 316.65472412109377,
-					"Z": 706.3995361328125
-				}
-			},
-			"StaticFlags": 0,
-			"Model": "a7a6e2f4417afba31d9716972e6429b2",
-			"Buffer": {
-				"Entries": [
-					{
-						"Material": "00000000000000000000000000000000",
-						"ShadowsMode": 3,
-						"Visible": true,
-						"ReceiveDecals": true
-					}
-				]
-			}
-		},
-		{
-			"ID": "1cc3099f40c748cf182b4189aa22b08c",
-			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "cf272f7b4b057c3469199db8d2e66b9e",
-			"Name": "tetris-cube 1",
-			"Transform": {
-				"Translation": {
-					"X": -133.89080810546876,
-					"Y": 316.65472412109377,
-					"Z": 706.3995361328125
-				}
-			},
-			"StaticFlags": 0,
-			"Model": "a7a6e2f4417afba31d9716972e6429b2",
-			"Buffer": {
-				"Entries": [
-					{
-						"Material": "00000000000000000000000000000000",
-						"ShadowsMode": 3,
-						"Visible": true,
-						"ReceiveDecals": true
-					}
-				]
-			}
-		},
-		{
-			"ID": "befe7db44fc8409f40e6fd8af68c4536",
-			"TypeName": "FlaxEngine.StaticModel",
-			"ParentID": "cf272f7b4b057c3469199db8d2e66b9e",
-			"Name": "tetris-cube 2",
-			"Transform": {
-				"Translation": {
-					"X": -213.6873321533203,
-					"Y": 239.52825927734376,
-					"Z": 706.3995361328125
-				}
-			},
-			"StaticFlags": 0,
-			"Model": "a7a6e2f4417afba31d9716972e6429b2",
-			"Buffer": {
-				"Entries": [
-					{
-						"Material": "00000000000000000000000000000000",
-						"ShadowsMode": 3,
-						"Visible": true,
-						"ReceiveDecals": true
-					}
-				]
-			}
-		},
-		{
 			"ID": "0552f1234af7b38bb0f69d8c13cfa408",
 			"TypeName": "FlaxEngine.StaticModel",
 			"ParentID": "dba5d2d141913da66cf0ae8de5e29e37",
@@ -726,12 +479,41 @@
 			"Transform": {
 				"Translation": {
 					"X": -200.0,
-					"Y": -100.0,
+					"Y": -50.0,
 					"Z": 796.5571899414063
 				},
 				"Scale": {
 					"X": 5.0,
-					"Y": 11.0,
+					"Y": 10.0,
+					"Z": 1.0
+				}
+			},
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "c6517eb542626d134d6ec4bcc653bd9e",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "8f00c6554e6a435f147d36a51918bcb2",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "dba5d2d141913da66cf0ae8de5e29e37",
+			"Name": "Grid 0",
+			"Transform": {
+				"Translation": {
+					"X": -200.0,
+					"Y": -575.0,
+					"Z": 796.5571899414063
+				},
+				"Scale": {
+					"X": 3.0,
+					"Y": 0.5,
 					"Z": 1.0
 				}
 			},
@@ -850,6 +632,878 @@
 			"V": {
 	"CubePrefab": "9e98b13d4be0a180d2633cb16ae118e2"
 }
+		},
+		{
+			"ID": "a2facdd5431192029d58e0978c395ba5",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "d4b9f836462ed436bc3c04ba9bca9480",
+			"IsActive": false,
+			"Name": "I Piece",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "ae2c794140ed9629a90fdabc8cef214c",
+			"TypeName": "Game.TetrisAnimaton",
+			"ParentID": "a2facdd5431192029d58e0978c395ba5",
+			"V": {
+	"StartTime": 6.0,
+	"Piece": "2f9ccacc45517813581874bf9191451e",
+	"Keyframes": [
+		{
+			"X": 0,
+			"Y": 0.0,
+			"Rotation": 3
+		},
+		{
+			"X": 0,
+			"Y": 1.0,
+			"Rotation": 3
+		},
+		{
+			"X": 0,
+			"Y": 2.0,
+			"Rotation": 3
+		},
+		{
+			"X": 0,
+			"Y": 3.0,
+			"Rotation": 3
+		},
+		{
+			"X": 0,
+			"Y": 3.5,
+			"Rotation": 0
+		},
+		{
+			"X": 0,
+			"Y": 3.9,
+			"Rotation": 1
+		},
+		{
+			"X": 0,
+			"Y": 4.0,
+			"Rotation": 1
+		},
+		{
+			"X": 1,
+			"Y": 4.5,
+			"Rotation": 1
+		},
+		{
+			"X": 1,
+			"Y": 5.0,
+			"Rotation": 1
+		},
+		{
+			"X": 2,
+			"Y": 5.8,
+			"Rotation": 1
+		},
+		{
+			"X": 2,
+			"Y": 6.0,
+			"Rotation": 1
+		},
+		{
+			"X": 2,
+			"Y": 7.0,
+			"Rotation": 1
+		}
+	],
+	"FrameDuration": 0.6
+}
+		},
+		{
+			"ID": "2f9ccacc45517813581874bf9191451e",
+			"TypeName": "Game.TetrisPiece",
+			"ParentID": "a2facdd5431192029d58e0978c395ba5",
+			"V": {
+	"PieceType": 0,
+	"rotation": 3,
+	"CubePrefab": "bf2e9d01469b4d974c21498260e22af8"
+}
+		},
+		{
+			"ID": "fd35602a467753c6dcf9019c16f9a54b",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "d4b9f836462ed436bc3c04ba9bca9480",
+			"IsActive": false,
+			"Name": "S Piece",
+			"StaticFlags": 0
+		},
+		{
+			"ID": "6012bacb4c3f9628df48ab92779ed817",
+			"TypeName": "Game.TetrisAnimaton",
+			"ParentID": "fd35602a467753c6dcf9019c16f9a54b",
+			"V": {
+	"StartTime": 10.4,
+	"Piece": "d50d79ce428e52cf21ae12b28f777ea4",
+	"Keyframes": [
+		{
+			"X": 0,
+			"Y": 0.0,
+			"Rotation": 0
+		},
+		{
+			"X": 0,
+			"Y": 1.0,
+			"Rotation": 0
+		},
+		{
+			"X": 0,
+			"Y": 2.0,
+			"Rotation": 0
+		},
+		{
+			"X": 0,
+			"Y": 3.0,
+			"Rotation": 0
+		},
+		{
+			"X": 0,
+			"Y": 4.0,
+			"Rotation": 0
+		},
+		{
+			"X": 0,
+			"Y": 5.0,
+			"Rotation": 0
+		},
+		{
+			"X": 0,
+			"Y": 6.0,
+			"Rotation": 0
+		}
+	],
+	"FrameDuration": 0.6
+}
+		},
+		{
+			"ID": "d50d79ce428e52cf21ae12b28f777ea4",
+			"TypeName": "Game.TetrisPiece",
+			"ParentID": "fd35602a467753c6dcf9019c16f9a54b",
+			"V": {
+	"PieceType": 4,
+	"CubePrefab": "7df42b774c98920e56453bb58ab15562"
+}
+		},
+		{
+			"ID": "d48e4f3b48880770e944fcb9c217e3cb",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "dba5d2d141913da66cf0ae8de5e29e37",
+			"Name": "Next Piece Container",
+			"Transform": {
+				"Translation": {
+					"X": 421.4624938964844,
+					"Y": 100.09335327148438,
+					"Z": 787.7103271484375
+				},
+				"Scale": {
+					"X": 3.129999876022339,
+					"Y": 3.1999998092651369,
+					"Z": 1.0
+				}
+			}
+		},
+		{
+			"ID": "9e93e48542ca7588c815d280e7726407",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "d48e4f3b48880770e944fcb9c217e3cb",
+			"Name": "Next Piece Container",
+			"Model": "b43f0f8f4aaba3f3156896a5a22ba493",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "6cb91af64970ff3a1d2e389d4dbb8897",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "c9396e0a4cb6035709fcc587241ad9fe",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "d48e4f3b48880770e944fcb9c217e3cb",
+			"Name": "Next I Piece",
+			"Transform": {
+				"Translation": {
+					"X": 55.64153289794922,
+					"Y": -69.14985656738281,
+					"Z": -618.0418701171875
+				},
+				"Scale": {
+					"X": 0.2555910646915436,
+					"Y": 0.2500000298023224,
+					"Z": 0.800000011920929
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "339e829f46671a89ea59939376d93e99",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "c9396e0a4cb6035709fcc587241ad9fe",
+			"Name": "tetris-cube",
+			"Transform": {
+				"Translation": {
+					"X": -213.6444091796875,
+					"Y": 142.3411407470703,
+					"Z": 706.3995361328125
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "a7a6e2f4417afba31d9716972e6429b2",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "9d8e70a54fb2f60ced6ebfb5372d46e5",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "1bbfed13410dcad4aa10ddaa336f1aa1",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "c9396e0a4cb6035709fcc587241ad9fe",
+			"Name": "tetris-cube 0",
+			"Transform": {
+				"Translation": {
+					"X": -213.65249633789063,
+					"Y": 316.65472412109377,
+					"Z": 706.3995361328125
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "a7a6e2f4417afba31d9716972e6429b2",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "9d8e70a54fb2f60ced6ebfb5372d46e5",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "cfaacd504df15d42af5080af3fae52ac",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "c9396e0a4cb6035709fcc587241ad9fe",
+			"Name": "tetris-cube 1",
+			"Transform": {
+				"Translation": {
+					"X": -213.5137176513672,
+					"Y": 410.7283020019531,
+					"Z": 706.3995361328125
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "a7a6e2f4417afba31d9716972e6429b2",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "9d8e70a54fb2f60ced6ebfb5372d46e5",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "1dadf9d14b6a7b608a9a7e94782b275f",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "c9396e0a4cb6035709fcc587241ad9fe",
+			"Name": "tetris-cube 2",
+			"Transform": {
+				"Translation": {
+					"X": -213.68736267089845,
+					"Y": 235.2625274658203,
+					"Z": 706.3995361328125
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "a7a6e2f4417afba31d9716972e6429b2",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "9d8e70a54fb2f60ced6ebfb5372d46e5",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "894ca6e24f4d49c6013242984d7dd93d",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "d48e4f3b48880770e944fcb9c217e3cb",
+			"IsActive": false,
+			"Name": "Next S Piece",
+			"Transform": {
+				"Translation": {
+					"X": 55.64153289794922,
+					"Y": -69.14985656738281,
+					"Z": -618.0418701171875
+				},
+				"Scale": {
+					"X": 0.2555910646915436,
+					"Y": 0.2500000298023224,
+					"Z": 0.800000011920929
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "0e3ee0af4e663ea63df85bae0eca1f66",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "894ca6e24f4d49c6013242984d7dd93d",
+			"Name": "tetris-cube",
+			"Transform": {
+				"Translation": {
+					"X": -310.53802490234377,
+					"Y": 224.54913330078126,
+					"Z": 706.3995361328125
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "a7a6e2f4417afba31d9716972e6429b2",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "fad2952945e1acf498357bbe22879430",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "0adf851f401ba7278efc1b96ba01eb43",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "894ca6e24f4d49c6013242984d7dd93d",
+			"Name": "tetris-cube 0",
+			"Transform": {
+				"Translation": {
+					"X": -213.65249633789063,
+					"Y": 316.65472412109377,
+					"Z": 706.3995361328125
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "a7a6e2f4417afba31d9716972e6429b2",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "fad2952945e1acf498357bbe22879430",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "9b1e30274b3a7dcb4f5b9cb3b4c6f623",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "894ca6e24f4d49c6013242984d7dd93d",
+			"Name": "tetris-cube 1",
+			"Transform": {
+				"Translation": {
+					"X": -117.23075866699219,
+					"Y": 317.3642578125,
+					"Z": 706.3995361328125
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "a7a6e2f4417afba31d9716972e6429b2",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "fad2952945e1acf498357bbe22879430",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "a9b00e1f4aa0ca182ef0eab2ff88117e",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "894ca6e24f4d49c6013242984d7dd93d",
+			"Name": "tetris-cube 2",
+			"Transform": {
+				"Translation": {
+					"X": -213.68736267089845,
+					"Y": 224.54913330078126,
+					"Z": 706.3995361328125
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "a7a6e2f4417afba31d9716972e6429b2",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "fad2952945e1acf498357bbe22879430",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "6e17f9244010cbc38fed53b25c25885a",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "d48e4f3b48880770e944fcb9c217e3cb",
+			"IsActive": false,
+			"Name": "Next O Piece",
+			"Transform": {
+				"Translation": {
+					"X": 55.64153289794922,
+					"Y": -69.14985656738281,
+					"Z": -618.0418701171875
+				},
+				"Scale": {
+					"X": 0.2555910646915436,
+					"Y": 0.2500000298023224,
+					"Z": 0.800000011920929
+				}
+			},
+			"StaticFlags": 0
+		},
+		{
+			"ID": "3a313d424c5ed3ebe26ff6805107c685",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "6e17f9244010cbc38fed53b25c25885a",
+			"Name": "tetris-cube",
+			"Transform": {
+				"Translation": {
+					"X": -275.4289245605469,
+					"Y": 228.96630859375,
+					"Z": 706.3995361328125
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "a7a6e2f4417afba31d9716972e6429b2",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "55ece5744262b643304c188e299ebc8a",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "6e17f9244010cbc38fed53b25c25885a",
+			"Name": "tetris-cube 0",
+			"Transform": {
+				"Translation": {
+					"X": -174.71725463867188,
+					"Y": 320.39166259765627,
+					"Z": 706.3995361328125
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "a7a6e2f4417afba31d9716972e6429b2",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "2c85c42948d984d12624a99f4b6bf946",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "6e17f9244010cbc38fed53b25c25885a",
+			"Name": "tetris-cube 1",
+			"Transform": {
+				"Translation": {
+					"X": -273.80950927734377,
+					"Y": 320.7215576171875,
+					"Z": 706.3995361328125
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "a7a6e2f4417afba31d9716972e6429b2",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "bcd7ab2548fa74a8f26c63b3c94396be",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "6e17f9244010cbc38fed53b25c25885a",
+			"Name": "tetris-cube 2",
+			"Transform": {
+				"Translation": {
+					"X": -177.78244018554688,
+					"Y": 225.80340576171876,
+					"Z": 706.3995361328125
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "a7a6e2f4417afba31d9716972e6429b2",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "00000000000000000000000000000000",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "d3df5f1d42756180c72d02aefca8e40c",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "dba5d2d141913da66cf0ae8de5e29e37",
+			"IsActive": false,
+			"Name": "Physics I Piece",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -100.0,
+					"Z": 700.0
+				}
+			},
+			"StaticFlags": 0,
+			"OverrideMass": true,
+			"Mass": 8.0,
+			"Constraints": 20
+		},
+		{
+			"ID": "f65779a24ad00a25ae850aaa237eff8b",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "d3df5f1d42756180c72d02aefca8e40c",
+			"Name": "tetris-cube 0",
+			"StaticFlags": 0,
+			"Model": "a7a6e2f4417afba31d9716972e6429b2",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "9d8e70a54fb2f60ced6ebfb5372d46e5",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "4b35abb742fd27520a33a99f6eda5285",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "d3df5f1d42756180c72d02aefca8e40c",
+			"Name": "tetris-cube 0",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -100.0,
+					"Z": 0.0
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "a7a6e2f4417afba31d9716972e6429b2",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "9d8e70a54fb2f60ced6ebfb5372d46e5",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "4cf558e949ea9a1f50c30780b513a8f0",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "d3df5f1d42756180c72d02aefca8e40c",
+			"Name": "tetris-cube 0",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -200.0,
+					"Z": 0.0
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "a7a6e2f4417afba31d9716972e6429b2",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "9d8e70a54fb2f60ced6ebfb5372d46e5",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "279538ca46181194f5cb698c0d8a76ff",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "d3df5f1d42756180c72d02aefca8e40c",
+			"Name": "tetris-cube 0",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -300.0,
+					"Z": 0.0
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "a7a6e2f4417afba31d9716972e6429b2",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "9d8e70a54fb2f60ced6ebfb5372d46e5",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "28f822d44d513489802edfbf59131f32",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "d3df5f1d42756180c72d02aefca8e40c",
+			"Name": "BoxCollider",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -300.0,
+					"Z": 0.0
+				}
+			},
+			"StaticFlags": 0,
+			"Center": {
+				"X": 0.0,
+				"Y": 150.0,
+				"Z": 0.0
+			},
+			"Size": {
+				"X": 100.0,
+				"Y": 400.0,
+				"Z": 100.0
+			}
+		},
+		{
+			"ID": "905d435141c1b9f25f41d6b007d6ed84",
+			"TypeName": "FlaxEngine.EmptyActor",
+			"ParentID": "dba5d2d141913da66cf0ae8de5e29e37",
+			"Name": "Physics T Piece",
+			"Transform": {
+				"Translation": {
+					"X": -200.0,
+					"Y": -400.0,
+					"Z": 700.0
+				}
+			}
+		},
+		{
+			"ID": "66230ed949ffa074c47345af89be791b",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "905d435141c1b9f25f41d6b007d6ed84",
+			"Name": "BoxCollider"
+		},
+		{
+			"ID": "c21bb79f46822466e52f8c89c3f4e0c1",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "905d435141c1b9f25f41d6b007d6ed84",
+			"Name": "BoxCollider 0",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -100.0,
+					"Z": 0.0
+				}
+			},
+			"Size": {
+				"X": 300.0,
+				"Y": 100.0,
+				"Z": 100.0
+			}
+		},
+		{
+			"ID": "e23056e7450e617dd7e9c4ad3f6714b8",
+			"TypeName": "FlaxEngine.RigidBody",
+			"ParentID": "dba5d2d141913da66cf0ae8de5e29e37",
+			"IsActive": false,
+			"Name": "Physics S Piece",
+			"Transform": {
+				"Translation": {
+					"X": -300.0,
+					"Y": -100.0,
+					"Z": 700.0
+				}
+			},
+			"StaticFlags": 0,
+			"OverrideMass": true,
+			"Mass": 4.0,
+			"Constraints": 20
+		},
+		{
+			"ID": "8300ced5458a10e9b9109da88216ba4e",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "e23056e7450e617dd7e9c4ad3f6714b8",
+			"Name": "tetris-cube 0",
+			"StaticFlags": 0,
+			"Model": "a7a6e2f4417afba31d9716972e6429b2",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "fad2952945e1acf498357bbe22879430",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "6b63f92149dc3169d4890ab450869788",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "e23056e7450e617dd7e9c4ad3f6714b8",
+			"Name": "tetris-cube 0",
+			"Transform": {
+				"Translation": {
+					"X": 100.0,
+					"Y": 0.0,
+					"Z": 0.0
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "a7a6e2f4417afba31d9716972e6429b2",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "fad2952945e1acf498357bbe22879430",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "369db7f04bca454064ecc18df2110c33",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "e23056e7450e617dd7e9c4ad3f6714b8",
+			"Name": "tetris-cube 0",
+			"Transform": {
+				"Translation": {
+					"X": -100.0,
+					"Y": -100.0,
+					"Z": 0.0
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "a7a6e2f4417afba31d9716972e6429b2",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "fad2952945e1acf498357bbe22879430",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "f6c036bc4872c88346286195ccb46d18",
+			"TypeName": "FlaxEngine.StaticModel",
+			"ParentID": "e23056e7450e617dd7e9c4ad3f6714b8",
+			"Name": "tetris-cube 0",
+			"Transform": {
+				"Translation": {
+					"X": 0.0,
+					"Y": -100.0,
+					"Z": 0.0
+				}
+			},
+			"StaticFlags": 0,
+			"Model": "a7a6e2f4417afba31d9716972e6429b2",
+			"Buffer": {
+				"Entries": [
+					{
+						"Material": "fad2952945e1acf498357bbe22879430",
+						"ShadowsMode": 3,
+						"Visible": true,
+						"ReceiveDecals": true
+					}
+				]
+			}
+		},
+		{
+			"ID": "6ed346d247ecfb1d0b380ab45759969f",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "e23056e7450e617dd7e9c4ad3f6714b8",
+			"Name": "BoxCollider",
+			"StaticFlags": 0,
+			"Center": {
+				"X": 50.0,
+				"Y": 0.0,
+				"Z": 0.0
+			},
+			"Size": {
+				"X": 200.0,
+				"Y": 100.0,
+				"Z": 100.0
+			}
+		},
+		{
+			"ID": "256d7d2947ff394ed47e02a7fb9b937f",
+			"TypeName": "FlaxEngine.BoxCollider",
+			"ParentID": "e23056e7450e617dd7e9c4ad3f6714b8",
+			"Name": "BoxCollider 0",
+			"Transform": {
+				"Translation": {
+					"X": -100.0,
+					"Y": -100.0,
+					"Z": 0.0
+				}
+			},
+			"StaticFlags": 0,
+			"Center": {
+				"X": 50.0,
+				"Y": 0.0,
+				"Z": 0.0
+			},
+			"Size": {
+				"X": 200.0,
+				"Y": 100.0,
+				"Z": 100.0
+			}
 		}
 	]
 }
