@@ -41,7 +41,7 @@ public class CameraBobbing : Script
         _lastPosition = TargetCamera.LocalPosition;
         var speed = delta.Length / Time.DeltaTime;
 
-        var speedFraction = speed / WalkSpeed;
+        var speedFraction = Mathf.Min(speed / Mathf.Max(WalkSpeed, 0.01f), 100f);
         _time += Time.DeltaTime * speedFraction;
 
         var offset = new Vector3(

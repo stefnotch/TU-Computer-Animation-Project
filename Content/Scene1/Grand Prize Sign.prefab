@@ -1,0 +1,112 @@
+{
+	"ID": "5ae7c5d742145109d82b25b7601dba9c",
+	"TypeName": "FlaxEngine.Prefab",
+	"EngineBuild": 6512,
+	"Data": [
+	{
+		"ID": "3342ec4642a17f05164b5caf74801854",
+		"TypeName": "FlaxEngine.EmptyActor",
+		"ParentID": "00000000000000000000000000000000",
+		"Name": "Grand Prize Sign"
+	},
+	{
+		"ID": "8350b72e4bc6cf9b2ffe6d9d3f7cad1d",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "3342ec4642a17f05164b5caf74801854",
+		"Name": "grand-prize",
+		"Transform": {
+			"Translation": {
+				"X": -193.1626892089844,
+				"Y": 252.30349731445313,
+				"Z": 666.1775512695313
+			},
+			"Scale": {
+				"X": 0.30000001192092898,
+				"Y": 0.30000001192092898,
+				"Z": 0.30000001192092898
+			}
+		},
+		"Model": "a1b794bd4d659aa5808a319c3a3be423",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "00000000000000000000000000000000",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				},
+				{
+					"Material": "02a7b06342fd74c21736168a4a91eb58",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "3c4600a74e892245cef8c5bafd6ce105",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "3342ec4642a17f05164b5caf74801854",
+		"Name": "Cylinder",
+		"Transform": {
+			"Translation": {
+				"X": -199.4616851806641,
+				"Y": 2787.827880859375,
+				"Z": 665.9697265625
+			},
+			"Scale": {
+				"X": 0.05000000074505806,
+				"Y": 50.0,
+				"Z": 0.05000000074505806
+			}
+		},
+		"Model": "223aa9894e90973780ab508621517526",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "2fbfa96d422986b3c9a820bb817791ce",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	},
+	{
+		"ID": "37f3b9e040b2f57720825fb0143f3ab9",
+		"TypeName": "FlaxEngine.StaticModel",
+		"ParentID": "3342ec4642a17f05164b5caf74801854",
+		"Name": "Cylinder 0",
+		"Transform": {
+			"Translation": {
+				"X": 7.211418151855469,
+				"Y": 2766.513671875,
+				"Z": 665.9697265625
+			},
+			"Scale": {
+				"X": 0.05000000074505806,
+				"Y": 50.0,
+				"Z": 0.05000000074505806
+			}
+		},
+		"Model": "223aa9894e90973780ab508621517526",
+		"Buffer": {
+			"Entries": [
+				{
+					"Material": "2fbfa96d422986b3c9a820bb817791ce",
+					"ShadowsMode": 3,
+					"Visible": true,
+					"ReceiveDecals": true
+				}
+			]
+		}
+	}
+]
+}

@@ -1491,7 +1491,12 @@
 					"W": 1.910685465164705e-15
 				}
 			},
-			"V": {}
+			"V": {
+	"RenderMode": 1,
+	"ReceivesEvents": false,
+	"IgnoreDepth": true,
+	"RenderCamera": "d570fe0a44d277641ce0babf06c820a9"
+}
 		},
 		{
 			"ID": "650564794cd2d6bace8774b52bb2026f",
@@ -1510,7 +1515,7 @@
 			"ParentID": "650564794cd2d6bace8774b52bb2026f",
 			"Transform": {
 				"Translation": {
-					"X": 1779.375732421875,
+					"X": 1782.319580078125,
 					"Y": 68.0,
 					"Z": 0.0
 				}
@@ -1535,7 +1540,7 @@
 			"ParentID": "650564794cd2d6bace8774b52bb2026f",
 			"Transform": {
 				"Translation": {
-					"X": 1729.375732421875,
+					"X": 1732.319580078125,
 					"Y": 68.0,
 					"Z": 0.0
 				}
@@ -1560,7 +1565,7 @@
 			"ParentID": "650564794cd2d6bace8774b52bb2026f",
 			"Transform": {
 				"Translation": {
-					"X": 1679.375732421875,
+					"X": 1682.319580078125,
 					"Y": 68.0,
 					"Z": 0.0
 				}
