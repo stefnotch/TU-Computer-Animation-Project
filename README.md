@@ -33,7 +33,8 @@ No audio though, because ...
 
 ## Scene 3 - Shattered Tetris
 
-- Scrapped due to time constraints :(
+- Blender fracture
+- FlaxEngine physics
 
 ## Scene 4 - Totally normal Tetris
 
