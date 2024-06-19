@@ -2,6 +2,8 @@
 
 What did I do? I made a short video of a Tetris game in hell. The obvious twist is that the Tetris games are impossible, and even if you do solve them, you just land in hell again. It's a looping video.
 
+No audio though, because ...
+
 ## Scene 1 - The Entrance
 
 - Modeled the door in Blender
